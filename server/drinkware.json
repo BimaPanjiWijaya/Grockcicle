@@ -1,0 +1,451 @@
+[
+  {
+    "name": "HARRY POTTER TUMBLER",
+    "slug": "harry-potter-tumbler",
+    "description": "Slytherin / 16oz",
+    "excerpt": "HARRY POTTER TUMBLER - Leakproof insulated bottle.",
+    "price": 908000,
+    "tags": ["character-green-blue-yellow-red-grey-black-white-brown"],
+    "thumbnail": "https://corkcicle.com/cdn/shop/products/HP2116SLY-2.png?v=1772660020&width=1920",
+    "images": [
+      "https://corkcicle.com/cdn/shop/products/HP2116SLY-2.png?crop=center&height=448&v=1772660020&width=448",
+      "https://corkcicle.com/cdn/shop/products/HP2116DH-3.png?crop=center&height=448&v=1745334994&width=448",
+      "https://corkcicle.com/cdn/shop/products/HP2116RAV-2.png?crop=center&height=448&v=1745334994&width=448",
+      "https://corkcicle.com/cdn/shop/products/HP2116DM-3.png?crop=center&height=448&v=1772660020&width=448",
+      "https://corkcicle.com/cdn/shop/products/HP2116MM-2.png?crop=center&height=448&v=1772660020&width=448"
+    ],
+    "createdAt": "2026-05-11T09:00:22.685Z",
+    "updatedAt": "2026-05-11T09:00:22.685Z"
+  },
+  {
+    "name": "SIERRA CANTEEN",
+    "slug": "sierra-canteen",
+    "description": "Sierra Canteen",
+    "excerpt": "SIERRA CANTEEN - Leakproof insulated bottle.",
+    "price": 778000,
+    "tags": ["grey-blue-brown"],
+    "thumbnail": "https://corkcicle.com/cdn/shop/files/2016MDS-02.png?v=1746564442&width=1920",
+    "images": [
+      "https://corkcicle.com/cdn/shop/files/2016MDS-02.png?crop=center&height=448&v=1746564442&width=448"
+    ],
+    "createdAt": "2026-05-11T09:00:22.685Z",
+    "updatedAt": "2026-05-11T09:00:22.685Z"
+  },
+  {
+    "name": "COLD CUP XL",
+    "slug": "cold-cup-xl",
+    "description": "30oz / Powder Puff",
+    "excerpt": "COLD CUP XL - Leakproof insulated bottle.",
+    "price": 1037000,
+    "tags": [
+      "green-pink-yellow-white-blue-pattern-brown-grey-black-purple-animal-print-floral-sparkle"
+    ],
+    "thumbnail": "https://corkcicle.com/cdn/shop/files/2230GPF-01.png?v=1768941040&width=1920",
+    "images": [
+      "https://corkcicle.com/cdn/shop/files/2230GPF-01.png?crop=center&height=448&v=1768941040&width=448",
+      "https://corkcicle.com/cdn/shop/products/2230CDF-1.png?crop=center&height=448&v=1768941040&width=448",
+      "https://corkcicle.com/cdn/shop/products/2230CLT-1.png?crop=center&height=448&v=1768941040&width=448",
+      "https://corkcicle.com/cdn/shop/products/2230CHD-2.png?crop=center&height=448&v=1764278851&width=448",
+      "https://corkcicle.com/cdn/shop/products/2230ECS-2.png?crop=center&height=448&v=1725752593&width=448",
+      "https://corkcicle.com/cdn/shop/files/2230SUM-1.png?crop=center&height=448&v=1724952590&width=448",
+      "https://corkcicle.com/cdn/shop/products/2230MB-2.png?crop=center&height=448&v=1725752593&width=448",
+      "https://corkcicle.com/cdn/shop/files/2230PLV-01.png?crop=center&height=448&v=1768941040&width=448",
+      "https://corkcicle.com/cdn/shop/products/2230GW-3.png?crop=center&height=448&v=1725752593&width=448",
+      "https://corkcicle.com/cdn/shop/products/2230CP-1_4c2701ff-194c-400d-950a-5ac35458b27a.png?crop=center&height=448&v=1764278851&width=448",
+      "https://corkcicle.com/cdn/shop/products/2230CBP-1.png?crop=center&height=448&v=1764278851&width=448",
+      "https://corkcicle.com/cdn/shop/products/2230CST-1.png?crop=center&height=448&v=1764278851&width=448"
+    ],
+    "createdAt": "2026-05-11T09:00:22.685Z",
+    "updatedAt": "2026-05-11T09:00:22.685Z"
+  },
+  {
+    "name": "PURE TASTE MUG",
+    "slug": "pure-taste-mug",
+    "description": "Ceramic White/Powder Blue / 16oz",
+    "excerpt": "PURE TASTE MUG - Leakproof insulated bottle.",
+    "price": 908000,
+    "tags": ["blue-black-white-grey-brown"],
+    "thumbnail": "https://corkcicle.com/cdn/shop/files/2516PTWB-2.png?v=1773324771&width=1920",
+    "images": [
+      "https://corkcicle.com/cdn/shop/files/2516PTWB-2.png?crop=center&height=448&v=1773324771&width=448",
+      "https://corkcicle.com/cdn/shop/files/2516PTLO-2.png?crop=center&height=448&v=1765897751&width=448",
+      "https://corkcicle.com/cdn/shop/files/2516PTSG-2.png?crop=center&height=448&v=1773324771&width=448"
+    ],
+    "createdAt": "2026-05-11T09:00:22.685Z",
+    "updatedAt": "2026-05-11T09:00:22.685Z"
+  },
+  {
+    "name": "PURE TASTE STEMLESS",
+    "slug": "pure-taste-stemless",
+    "description": "12oz / Latte/Oat Milk",
+    "excerpt": "PURE TASTE STEMLESS - Leakproof insulated bottle.",
+    "price": 908000,
+    "tags": ["blue-black-white-grey-brown"],
+    "thumbnail": "https://corkcicle.com/cdn/shop/files/2312PTLO-2.png?v=1743452408&width=1920",
+    "images": [
+      "https://corkcicle.com/cdn/shop/files/2312PTLO-2.png?crop=center&height=448&v=1743452408&width=448",
+      "https://corkcicle.com/cdn/shop/files/2312PTSG-2.png?crop=center&height=448&v=1738158612&width=448",
+      "https://corkcicle.com/cdn/shop/files/2312PTWB-2.png?crop=center&height=448&v=1743452408&width=448"
+    ],
+    "createdAt": "2026-05-11T09:00:22.685Z",
+    "updatedAt": "2026-05-11T09:00:22.685Z"
+  },
+  {
+    "name": "RIFLE PAPER CO. COLD CUP XL",
+    "slug": "rifle-cold-cup-xl",
+    "description": "Rifle Paper Co. Cold Cup XL",
+    "excerpt": "RIFLE PAPER CO. COLD CUP XL - Leakproof insulated bottle.",
+    "price": 1167000,
+    "tags": ["floral-white"],
+    "thumbnail": "https://corkcicle.com/cdn/shop/files/RP2232GCGP.png?v=1697463223&width=1920",
+    "images": [
+      "https://corkcicle.com/cdn/shop/files/RP2232GCGP.png?crop=center&height=448&v=1697463223&width=448"
+    ],
+    "createdAt": "2026-05-11T09:00:22.685Z",
+    "updatedAt": "2026-05-11T09:00:22.685Z"
+  },
+  {
+    "name": "RIFLE PAPER CO. STEMLESS",
+    "slug": "rifle-paper-co-stemless",
+    "description": "12oz / Pink Hydrangea",
+    "excerpt": "RIFLE PAPER CO. STEMLESS - Leakproof insulated bottle.",
+    "price": 908000,
+    "tags": ["floral-white-blue-green-purple-pink"],
+    "thumbnail": "https://corkcicle.com/cdn/shop/files/RP2312MCPH_hero.png?v=1773761546&width=1920",
+    "images": [
+      "https://corkcicle.com/cdn/shop/files/RP2312MCPH_hero.png?crop=center&height=448&v=1773761546&width=448",
+      "https://corkcicle.com/cdn/shop/files/RP2312GCCH_hero.png?crop=center&height=448&v=1773761546&width=448",
+      "https://corkcicle.com/cdn/shop/products/RP2312GCGP.png?crop=center&height=448&v=1771527895&width=448",
+      "https://corkcicle.com/cdn/shop/files/RP2312GBP-02.png?crop=center&height=448&v=1771527895&width=448",
+      "https://corkcicle.com/cdn/shop/files/RP2312GCC-02_1e1f4bda-0b36-4729-838c-5ca70dda2217.png?crop=center&height=448&v=1771527895&width=448",
+      "https://corkcicle.com/cdn/shop/products/pink_02.png?crop=center&height=448&v=1771527895&width=448",
+      "https://corkcicle.com/cdn/shop/files/RP2312GPR-2.png?crop=center&height=448&v=1771527895&width=448"
+    ],
+    "createdAt": "2026-05-11T09:00:22.685Z",
+    "updatedAt": "2026-05-11T09:00:22.685Z"
+  },
+  {
+    "name": "CIGAR GLASS",
+    "slug": "cigar-glass",
+    "description": "Cigar Glass",
+    "excerpt": "CIGAR GLASS - Leakproof insulated bottle.",
+    "price": 649000,
+    "tags": ["clear"],
+    "thumbnail": "https://corkcicle.com/cdn/shop/products/Cigar_Glass_Corkcicle-Option2.png?v=1586354263&width=1920",
+    "images": [
+      "https://corkcicle.com/cdn/shop/products/Cigar_Glass_Corkcicle-Option2.png?crop=center&height=448&v=1586354263&width=448"
+    ],
+    "createdAt": "2026-05-11T09:00:22.685Z",
+    "updatedAt": "2026-05-11T09:00:22.685Z"
+  },
+  {
+    "name": "TEQUILA TRIANGLE",
+    "slug": "tequila-triangle",
+    "description": "Tequila Triangle",
+    "excerpt": "TEQUILA TRIANGLE - Leakproof insulated bottle.",
+    "price": 649000,
+    "tags": ["clear"],
+    "thumbnail": "https://corkcicle.com/cdn/shop/files/7003-01.png?v=1728072506&width=1920",
+    "images": [
+      "https://corkcicle.com/cdn/shop/files/7003-01.png?crop=center&height=448&v=1728072506&width=448"
+    ],
+    "createdAt": "2026-05-11T09:00:22.685Z",
+    "updatedAt": "2026-05-11T09:00:22.685Z"
+  },
+  {
+    "name": "ECO STACKER",
+    "slug": "eco-stacker",
+    "description": "18oz / Gloss Red",
+    "excerpt": "ECO STACKER - Leakproof insulated bottle.",
+    "price": 1297000,
+    "tags": ["black-white-blue"],
+    "thumbnail": "https://corkcicle.com/cdn/shop/files/2118gr-03.png?v=1773934045&width=1920",
+    "images": [
+      "https://corkcicle.com/cdn/shop/files/2118gr-03.png?crop=center&height=448&v=1773934045&width=448",
+      "https://corkcicle.com/cdn/shop/products/2118GPB-5.png?crop=center&height=448&v=1773934045&width=448",
+      "https://corkcicle.com/cdn/shop/products/2118MB-5.png?crop=center&height=448&v=1724769945&width=448"
+    ],
+    "createdAt": "2026-05-11T09:00:22.685Z",
+    "updatedAt": "2026-05-11T09:00:22.685Z"
+  },
+  {
+    "name": "RIFLE PAPER CO. COFFEE MUG",
+    "slug": "copy-of-classic-coffee-mug",
+    "description": "Garden Party / 16oz",
+    "excerpt": "RIFLE PAPER CO. COFFEE MUG - Leakproof insulated bottle.",
+    "price": 908000,
+    "tags": ["floral-white-blue-green-purple"],
+    "thumbnail": "https://corkcicle.com/cdn/shop/products/RP2516GCGP-3.png?v=1765898563&width=1920",
+    "images": [
+      "https://corkcicle.com/cdn/shop/products/RP2516GCGP-3.png?crop=center&height=448&v=1765898563&width=448",
+      "https://corkcicle.com/cdn/shop/files/RP2516GCC-02.png?crop=center&height=448&v=1765898563&width=448",
+      "https://corkcicle.com/cdn/shop/files/RP2516GBP-02.png?crop=center&height=448&v=1750172330&width=448",
+      "https://corkcicle.com/cdn/shop/products/13_d97cf7c6-7af5-43c2-9c01-ff29dbbc86f3.png?crop=center&height=448&v=1740001599&width=448"
+    ],
+    "createdAt": "2026-05-11T09:00:22.685Z",
+    "updatedAt": "2026-05-11T09:00:22.685Z"
+  },
+  {
+    "name": "CLASSIC SPORT CANTEEN",
+    "slug": "sport-canteen",
+    "description": "20oz / Chocolate Milk",
+    "excerpt": "CLASSIC SPORT CANTEEN - Leakproof insulated bottle.",
+    "price": 1037000,
+    "tags": ["white-black"],
+    "thumbnail": "https://corkcicle.com/cdn/shop/files/2020GCM-2.png?v=1775151165&width=1920",
+    "images": [
+      "https://corkcicle.com/cdn/shop/files/2020GCM-2.png?crop=center&height=448&v=1775151165&width=448",
+      "https://corkcicle.com/cdn/shop/files/2020PCG-2.png?crop=center&height=448&v=1775151165&width=448",
+      "https://corkcicle.com/cdn/shop/files/2020PTH-01.png?crop=center&height=448&v=1772722425&width=448",
+      "https://corkcicle.com/cdn/shop/files/2020GTQ.png?crop=center&height=448&v=1772722425&width=448",
+      "https://corkcicle.com/cdn/shop/files/2020CPOP.png?crop=center&height=448&v=1772722425&width=448",
+      "https://corkcicle.com/cdn/shop/files/2020PWCN-03.png?crop=center&height=448&v=1772722425&width=448",
+      "https://corkcicle.com/cdn/shop/files/2020CTJ.png?crop=center&height=448&v=1772722425&width=448",
+      "https://corkcicle.com/cdn/shop/files/2020PBW-2_aa25adf1-4af6-4040-ad83-b1ec4bdda590.png?crop=center&height=448&v=1772722425&width=448",
+      "https://corkcicle.com/cdn/shop/files/2020PWW-2_66712286-0d4d-44e3-a670-e2dc80afeb46.png?crop=center&height=448&v=1772722425&width=448",
+      "https://corkcicle.com/cdn/shop/files/2020GW-2.png?crop=center&height=448&v=1772722425&width=448",
+      "https://corkcicle.com/cdn/shop/files/2020RMB-03.png?crop=center&height=448&v=1772724290&width=448",
+      "https://corkcicle.com/cdn/shop/files/Woodland_Camo_PDP_-_Quick_Sip_Cap.png?crop=center&height=448&v=1777478336&width=448",
+      "https://corkcicle.com/cdn/shop/files/01_ddffe548-ce5f-465b-8fce-7c42f4bb6655.png?crop=center&height=448&v=1772722425&width=448",
+      "https://corkcicle.com/cdn/shop/products/rose_quartz_Sports_Canteen_02_a20748df-b3f8-495c-a064-ca9a3f61a87a.png?crop=center&height=448&v=1772722425&width=448"
+    ],
+    "createdAt": "2026-05-11T09:00:22.685Z",
+    "updatedAt": "2026-05-11T09:00:22.685Z"
+  },
+  {
+    "name": "TRAVELER",
+    "slug": "traveler",
+    "description": "Traveler",
+    "excerpt": "TRAVELER - Leakproof insulated bottle.",
+    "price": 2074000,
+    "tags": ["black-grey"],
+    "thumbnail": "https://corkcicle.com/cdn/shop/products/6736ECS-2.png?v=1692821870&width=1920",
+    "images": [
+      "https://corkcicle.com/cdn/shop/products/6736ECS-2.png?crop=center&height=448&v=1692821870&width=448"
+    ],
+    "createdAt": "2026-05-11T09:00:22.685Z",
+    "updatedAt": "2026-05-11T09:00:22.686Z"
+  },
+  {
+    "name": "STEMLESS GLASS SET (2)",
+    "slug": "prism-stemless-glass",
+    "description": "12oz / Grey",
+    "excerpt": "STEMLESS GLASS SET (2) - Leakproof insulated bottle.",
+    "price": 1037000,
+    "tags": ["clear-pink-blue-grey"],
+    "thumbnail": "https://corkcicle.com/cdn/shop/files/7401g.png?v=1763655612&width=1920",
+    "images": [
+      "https://corkcicle.com/cdn/shop/files/7401g.png?crop=center&height=448&v=1763655612&width=448",
+      "https://corkcicle.com/cdn/shop/files/7401C_media_01_1.png?crop=center&height=448&v=1713888179&width=448",
+      "https://corkcicle.com/cdn/shop/files/7401IB-3_57902d2c-9047-490d-bc0c-14226045475f.png?crop=center&height=448&v=1713888179&width=448"
+    ],
+    "createdAt": "2026-05-11T09:00:22.686Z",
+    "updatedAt": "2026-05-11T09:00:22.686Z"
+  },
+  {
+    "name": "UNICORN MAGIC TUMBLER",
+    "slug": "unicorn-magic-tumbler",
+    "description": "16oz / Rainbow Unicorn",
+    "excerpt": "UNICORN MAGIC TUMBLER - Leakproof insulated bottle.",
+    "price": 778000,
+    "tags": ["sparkle-pink-blue-white-purple"],
+    "thumbnail": "https://corkcicle.com/cdn/shop/files/2116SRU-2.png?v=1747329380&width=1920",
+    "images": [
+      "https://corkcicle.com/cdn/shop/files/2116SRU-2.png?crop=center&height=448&v=1747329380&width=448",
+      "https://corkcicle.com/cdn/shop/files/2116SSS-02.png?crop=center&height=448&v=1747329380&width=448",
+      "https://corkcicle.com/cdn/shop/files/2124SUM_4e94f95d-f562-41bb-95e0-174c9a26d13a.png?crop=center&height=448&v=1739285559&width=448"
+    ],
+    "createdAt": "2026-05-11T09:00:22.686Z",
+    "updatedAt": "2026-05-11T09:00:22.686Z"
+  },
+  {
+    "name": "UNICORN MAGIC STEMLESS",
+    "slug": "unicorn-magic-stemless",
+    "description": "12oz / Ice Breaker",
+    "excerpt": "UNICORN MAGIC STEMLESS - Leakproof insulated bottle.",
+    "price": 778000,
+    "tags": ["sparkle-white-blue-pink-purple-turquoise"],
+    "thumbnail": "https://corkcicle.com/cdn/shop/files/2312SIB-02.png?v=1762874707&width=1920",
+    "images": [
+      "https://corkcicle.com/cdn/shop/files/2312SIB-02.png?crop=center&height=448&v=1762874707&width=448",
+      "https://corkcicle.com/cdn/shop/products/Unicorn_Magic_Stemless_2312SUM.png?crop=center&height=448&v=1750440061&width=448",
+      "https://corkcicle.com/cdn/shop/files/2312SRU-2.png?crop=center&height=448&v=1761748147&width=448",
+      "https://corkcicle.com/cdn/shop/products/2312SET-2.png?crop=center&height=448&v=1739298538&width=448"
+    ],
+    "createdAt": "2026-05-11T09:00:22.686Z",
+    "updatedAt": "2026-05-11T09:00:22.686Z"
+  },
+  {
+    "name": "SERIES A SPORT JUG",
+    "slug": "series-a-sport-jug",
+    "description": "64oz / Black",
+    "excerpt": "SERIES A SPORT JUG - Leakproof insulated bottle.",
+    "price": 2074000,
+    "tags": ["purple-pink-orange-blue-green-camo-black"],
+    "thumbnail": "https://corkcicle.com/cdn/shop/products/2964CB-3.png?v=1739304435&width=1920",
+    "images": [
+      "https://corkcicle.com/cdn/shop/products/2964CB-3.png?crop=center&height=448&v=1739304435&width=448",
+      "https://corkcicle.com/cdn/shop/products/2964CP-3.png?crop=center&height=448&v=1739304435&width=448",
+      "https://corkcicle.com/cdn/shop/products/2964DNC-3.png?crop=center&height=448&v=1739304435&width=448",
+      "https://corkcicle.com/cdn/shop/products/2964DNK-4.png?crop=center&height=448&v=1739304435&width=448",
+      "https://corkcicle.com/cdn/shop/products/2964CF-4.png?crop=center&height=448&v=1739304435&width=448"
+    ],
+    "createdAt": "2026-05-11T09:00:22.686Z",
+    "updatedAt": "2026-05-11T09:00:22.686Z"
+  },
+  {
+    "name": "CLASSIC COFFEE MUG",
+    "slug": "coffee-mug",
+    "description": "Chocolate Milk / 16oz",
+    "excerpt": "CLASSIC COFFEE MUG - Leakproof insulated bottle.",
+    "price": 778000,
+    "tags": ["blue-pink-black-white"],
+    "thumbnail": "https://corkcicle.com/cdn/shop/files/2516GCM-2.png?v=1776450061&width=1920",
+    "images": [
+      "https://corkcicle.com/cdn/shop/files/2516GCM-2.png?crop=center&height=448&v=1776450061&width=448",
+      "https://corkcicle.com/cdn/shop/files/2516RB-2.png?crop=center&height=448&v=1776450061&width=448",
+      "https://corkcicle.com/cdn/shop/files/2516RC-2.png?crop=center&height=448&v=1776450061&width=448",
+      "https://corkcicle.com/cdn/shop/files/2516MDS-02.png?crop=center&height=448&v=1770324632&width=448",
+      "https://corkcicle.com/cdn/shop/products/2516GMN-2.png?crop=center&height=448&v=1769445416&width=448",
+      "https://corkcicle.com/cdn/shop/products/11_0133d85d-31a4-4437-ba5a-95b57d5ba894.png?crop=center&height=448&v=1769445416&width=448",
+      "https://corkcicle.com/cdn/shop/files/2516GOM-2.png?crop=center&height=448&v=1769445416&width=448",
+      "https://corkcicle.com/cdn/shop/files/2516GTQ_edited.png?crop=center&height=448&v=1770325211&width=448",
+      "https://corkcicle.com/cdn/shop/files/2516RO-01_edited.png?crop=center&height=448&v=1770738136&width=448",
+      "https://corkcicle.com/cdn/shop/files/2516PWW_1.png?crop=center&height=448&v=1769445416&width=448",
+      "https://corkcicle.com/cdn/shop/products/White_Mug_02_431abd96-1613-4669-8c50-30f9de19abe8.png?crop=center&height=448&v=1769445416&width=448",
+      "https://corkcicle.com/cdn/shop/products/Matte_Black_Mug_02.png?crop=center&height=448&v=1769445416&width=448",
+      "https://corkcicle.com/cdn/shop/files/2516CHD.png?crop=center&height=448&v=1769445416&width=448",
+      "https://corkcicle.com/cdn/shop/files/2516PBW-2_be9553b2-69d8-4f5b-b528-d5ed1ee0a294.png?crop=center&height=448&v=1769445416&width=448",
+      "https://corkcicle.com/cdn/shop/files/2516ECS.png?crop=center&height=448&v=1769445416&width=448",
+      "https://corkcicle.com/cdn/shop/files/2516RDR-01.png?crop=center&height=448&v=1769445416&width=448"
+    ],
+    "createdAt": "2026-05-11T09:00:22.686Z",
+    "updatedAt": "2026-05-11T09:00:22.686Z"
+  },
+  {
+    "name": "CLASSIC TUMBLER",
+    "slug": "classic-tumbler",
+    "description": "16oz / Mesa",
+    "excerpt": "CLASSIC TUMBLER - Leakproof insulated bottle.",
+    "price": 778000,
+    "tags": ["blue-pink-black-white"],
+    "thumbnail": "https://corkcicle.com/cdn/shop/files/2116PME-1.png?v=1772722773&width=1920",
+    "images": [
+      "https://corkcicle.com/cdn/shop/files/2116PME-1.png?crop=center&height=448&v=1772722773&width=448",
+      "https://corkcicle.com/cdn/shop/files/2116PP_2.png?crop=center&height=448&v=1772722773&width=448",
+      "https://corkcicle.com/cdn/shop/files/2116GOM-2.png?crop=center&height=448&v=1772722773&width=448",
+      "https://corkcicle.com/cdn/shop/products/2116GMN-2.png?crop=center&height=448&v=1772722773&width=448",
+      "https://corkcicle.com/cdn/shop/files/2116GPF-02.png?crop=center&height=448&v=1772722773&width=448",
+      "https://corkcicle.com/cdn/shop/files/2116PWW_8ba7dd3e-bfc1-44f4-a5d7-706c3c29f640.png?crop=center&height=448&v=1772722773&width=448",
+      "https://corkcicle.com/cdn/shop/products/08_5aaf1a48-a781-4747-b9fe-cc6d929a66fd.png?crop=center&height=448&v=1772722773&width=448",
+      "https://corkcicle.com/cdn/shop/products/Corkcicle_Tumbler_16oz_White.png?crop=center&height=448&v=1772722773&width=448",
+      "https://corkcicle.com/cdn/shop/products/Corkcicle_Tumbler_16oz_Matte_Black.png?crop=center&height=448&v=1772722773&width=448",
+      "https://corkcicle.com/cdn/shop/files/2116PCD-02.png?crop=center&height=448&v=1772722773&width=448",
+      "https://corkcicle.com/cdn/shop/files/2116PFMN-2_31386fb2-d980-475a-81d9-ddd1f9843225.png?crop=center&height=448&v=1772722773&width=448",
+      "https://corkcicle.com/cdn/shop/files/2124GCM-2.png?crop=center&height=448&v=1772722773&width=448",
+      "https://corkcicle.com/cdn/shop/files/2124PWC.png?crop=center&height=448&v=1772722773&width=448",
+      "https://corkcicle.com/cdn/shop/files/308.png?crop=center&height=448&v=1772722773&width=448",
+      "https://corkcicle.com/cdn/shop/files/2124CHD_hero.png?crop=center&height=448&v=1778075497&width=448"
+    ],
+    "createdAt": "2026-05-11T09:00:22.686Z",
+    "updatedAt": "2026-05-11T09:00:22.686Z"
+  },
+  {
+    "name": "CLASSIC STEMLESS",
+    "slug": "stemless",
+    "description": "12oz / Canopy Grove",
+    "excerpt": "CLASSIC STEMLESS - Leakproof insulated bottle.",
+    "price": 778000,
+    "tags": ["blue-pink-black-white"],
+    "thumbnail": "https://corkcicle.com/cdn/shop/files/2312PCG-2.png?v=1776450340&width=1920",
+    "images": [
+      "https://corkcicle.com/cdn/shop/files/2312PCG-2.png?crop=center&height=448&v=1776450340&width=448",
+      "https://corkcicle.com/cdn/shop/files/2312PBBC-2.png?crop=center&height=448&v=1776450340&width=448",
+      "https://corkcicle.com/cdn/shop/files/2312GCM-2.png?crop=center&height=448&v=1773666578&width=448",
+      "https://corkcicle.com/cdn/shop/files/2312PCD-02.png?crop=center&height=448&v=1773666578&width=448",
+      "https://corkcicle.com/cdn/shop/files/2312SCG-2.png?crop=center&height=448&v=1773666578&width=448",
+      "https://corkcicle.com/cdn/shop/files/2312GOM-2.png?crop=center&height=448&v=1773666578&width=448",
+      "https://corkcicle.com/cdn/shop/files/2312PWW_1.png?crop=center&height=448&v=1773666578&width=448",
+      "https://corkcicle.com/cdn/shop/products/2312GMN-2.png?crop=center&height=448&v=1773666578&width=448",
+      "https://corkcicle.com/cdn/shop/files/2312ECS-2_4faf020c-ee99-4604-8357-12c399762d68.png?crop=center&height=448&v=1773666578&width=448",
+      "https://corkcicle.com/cdn/shop/products/01_5a3c175a-abbc-4a5c-9d67-0d7677147d8c.png?crop=center&height=448&v=1773666578&width=448",
+      "https://corkcicle.com/cdn/shop/products/2312BBB-2_fe021977-3e5e-45bf-88fa-c0f108f38119.png?crop=center&height=448&v=1773666578&width=448",
+      "https://corkcicle.com/cdn/shop/products/Matte_Black_Stemless_2312MB.png?crop=center&height=448&v=1773666578&width=448",
+      "https://corkcicle.com/cdn/shop/products/Gloss_White_Stemless_2312GW.png?crop=center&height=448&v=1773666578&width=448",
+      "https://corkcicle.com/cdn/shop/files/2312PS_1.png?crop=center&height=448&v=1773666578&width=448",
+      "https://corkcicle.com/cdn/shop/files/2312WFC-1.png?crop=center&height=448&v=1773666578&width=448"
+    ],
+    "createdAt": "2026-05-11T09:00:22.686Z",
+    "updatedAt": "2026-05-11T09:00:22.686Z"
+  },
+  {
+    "name": "SIERRA TUMBLER",
+    "slug": "sierra-tumbler",
+    "description": "12oz / Brick",
+    "excerpt": "SIERRA TUMBLER - Leakproof insulated bottle.",
+    "price": 649000,
+    "tags": ["grey-white-black-green-blue"],
+    "thumbnail": "https://corkcicle.com/cdn/shop/files/2112RB-2.png?v=1769446116&width=1920",
+    "images": [
+      "https://corkcicle.com/cdn/shop/files/2112RB-2.png?crop=center&height=448&v=1769446116&width=448",
+      "https://corkcicle.com/cdn/shop/files/2112MDS-2.png?crop=center&height=448&v=1769695995&width=448",
+      "https://corkcicle.com/cdn/shop/files/2124RC-2_b92b50fe-40cc-4dba-8854-b277bd5d5991.png?crop=center&height=448&v=1769095538&width=448",
+      "https://corkcicle.com/cdn/shop/files/2124RDR-01.png?crop=center&height=448&v=1769095570&width=448",
+      "https://corkcicle.com/cdn/shop/files/2124RO-01.png?crop=center&height=448&v=1769095570&width=448",
+      "https://corkcicle.com/cdn/shop/files/2124PBW-2_b26f6f06-d596-466f-a0a5-081996d6ce8e.png?crop=center&height=448&v=1769095570&width=448",
+      "https://corkcicle.com/cdn/shop/files/2124MNS-02.png?crop=center&height=448&v=1769095570&width=448",
+      "https://corkcicle.com/cdn/shop/files/2124MF-02.png?crop=center&height=448&v=1769095570&width=448",
+      "https://corkcicle.com/cdn/shop/files/2224MRS-2.png?crop=center&height=448&v=1769095570&width=448"
+    ],
+    "createdAt": "2026-05-11T09:00:22.686Z",
+    "updatedAt": "2026-05-11T09:00:22.686Z"
+  },
+  {
+    "name": "HARRY POTTER COFFEE MUG",
+    "slug": "harry-potter-coffee-mug",
+    "description": "Gryffindor / 16oz",
+    "excerpt": "HARRY POTTER COFFEE MUG - Leakproof insulated bottle.",
+    "price": 1037000,
+    "tags": ["character-green-blue-yellow-red-grey-black"],
+    "thumbnail": "https://corkcicle.com/cdn/shop/products/HP2516GRY-2.png?v=1762269499&width=1920",
+    "images": [
+      "https://corkcicle.com/cdn/shop/products/HP2516GRY-2.png?crop=center&height=448&v=1762269499&width=448",
+      "https://corkcicle.com/cdn/shop/products/HP2516SLY-1.png?crop=center&height=448&v=1760559492&width=448",
+      "https://corkcicle.com/cdn/shop/products/HP2516RAV-2.png?crop=center&height=448&v=1760559492&width=448",
+      "https://corkcicle.com/cdn/shop/products/HP2516HUF-1.png?crop=center&height=448&v=1760559492&width=448",
+      "https://corkcicle.com/cdn/shop/products/HP2516DM-1.png?crop=center&height=448&v=1762269499&width=448",
+      "https://corkcicle.com/cdn/shop/products/HP2516HC-1-2.png?crop=center&height=448&v=1665248073&width=448"
+    ],
+    "createdAt": "2026-05-11T09:00:22.686Z",
+    "updatedAt": "2026-05-11T09:00:22.686Z"
+  },
+  {
+    "name": "DOG BOWL",
+    "slug": "dog-bowl",
+    "description": "Dog Bowl",
+    "excerpt": "DOG BOWL - Leakproof insulated bottle.",
+    "price": 908000,
+    "tags": ["pink-brown-white-blue-metallic"],
+    "thumbnail": "https://corkcicle.com/cdn/shop/products/5732GW-1.png?v=1774468126&width=1920",
+    "images": [
+      "https://corkcicle.com/cdn/shop/products/5732GW-1.png?crop=center&height=448&v=1774468126&width=448"
+    ],
+    "createdAt": "2026-05-11T09:00:22.686Z",
+    "updatedAt": "2026-05-11T09:00:22.686Z"
+  },
+  {
+    "name": "UNICORN MAGIC COFFEE MUG",
+    "slug": "sparkle-coffee-mug",
+    "description": "16oz / Steel Shadow",
+    "excerpt": "UNICORN MAGIC COFFEE MUG - Leakproof insulated bottle.",
+    "price": 778000,
+    "tags": ["sparkle-white-black"],
+    "thumbnail": "https://corkcicle.com/cdn/shop/files/2516SSS-02.png?v=1765902673&width=1920",
+    "images": [
+      "https://corkcicle.com/cdn/shop/files/2516SSS-02.png?crop=center&height=448&v=1765902673&width=448",
+      "https://corkcicle.com/cdn/shop/files/2516SUM_1.png?crop=center&height=448&v=1765902673&width=448"
+    ],
+    "createdAt": "2026-05-11T09:00:22.686Z",
+    "updatedAt": "2026-05-11T09:00:22.686Z"
+  }
+]
