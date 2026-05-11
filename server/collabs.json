@@ -1,290 +1,341 @@
-[
-  {
-    "name": "RIFLE PAPER CO. LEAKPROOF CRUISER",
-    "slug": "rifle-paper-co-leakproof-cruiser",
-    "description": "Pink Hydrangea / 22oz",
-    "excerpt": "RIFLE PAPER CO. LEAKPROOF CRUISER - Leakproof insulated bottle.",
-    "price": 1037000,
-    "tags": ["pink-sparkle-pattern-floral-green"],
-    "thumbnail": "https://corkcicle.com/cdn/shop/files/RP2222MCPH_hero_7acf7745-eb71-4e37-84f5-078fb2ae496a.png?v=1775577498&width=1920",
-    "images": [
-      "https://corkcicle.com/cdn/shop/files/RP2222MCPH_hero_7acf7745-eb71-4e37-84f5-078fb2ae496a.png?crop=center&height=448&v=1775577498&width=448",
-      "https://corkcicle.com/cdn/shop/files/RP2222GCCH_hero_5b9c3709-388e-4254-be91-6e5172948154.png?crop=center&height=448&v=1775577498&width=448",
-      "https://corkcicle.com/cdn/shop/files/RP2222GBP-01.png?crop=center&height=448&v=1775577498&width=448",
-      "https://corkcicle.com/cdn/shop/files/RP2222GCGP-01.png?crop=center&height=448&v=1775577498&width=448"
-    ],
-    "createdAt": "2026-05-11T08:56:18.601Z",
-    "updatedAt": "2026-05-11T08:56:18.601Z"
-  },
-  {
-    "name": "HARRY POTTER LEAKPROOF CRUISER",
-    "slug": "harry-potter-leakproof-cruiser",
-    "description": "Hogwarts Express / 40oz",
-    "excerpt": "HARRY POTTER LEAKPROOF CRUISER - Leakproof insulated bottle.",
-    "price": 1297000,
-    "tags": ["character-red-grey-black"],
-    "thumbnail": "https://corkcicle.com/cdn/shop/files/hogwartsexpress_hero_v3.png?v=1774979796&width=1920",
-    "images": [
-      "https://corkcicle.com/cdn/shop/files/hogwartsexpress_hero_v3.png?crop=center&height=448&v=1774979796&width=448",
-      "https://corkcicle.com/cdn/shop/files/Patronus_hero_v2.png?crop=center&height=448&v=1774979796&width=448"
-    ],
-    "createdAt": "2026-05-11T08:56:18.601Z",
-    "updatedAt": "2026-05-11T08:56:18.601Z"
-  },
-  {
-    "name": "HARRY POTTER CRUISER",
-    "slug": "harry-potter-cruiser",
-    "description": "40oz / Herbology",
-    "excerpt": "HARRY POTTER CRUISER - Leakproof insulated bottle.",
-    "price": 1297000,
-    "tags": ["character-red-grey-black"],
-    "thumbnail": "https://corkcicle.com/cdn/shop/files/HP2240HERB-01_d86d6e99-be92-486f-b23d-914684068877.png?v=1773760452&width=1920",
-    "images": [
-      "https://corkcicle.com/cdn/shop/files/HP2240HERB-01_d86d6e99-be92-486f-b23d-914684068877.png?crop=center&height=448&v=1773760452&width=448",
-      "https://corkcicle.com/cdn/shop/files/HP2240MM-01_1e5b945d-fefb-478c-ab28-ccd489b4938f.png?crop=center&height=448&v=1773760452&width=448"
-    ],
-    "createdAt": "2026-05-11T08:56:18.601Z",
-    "updatedAt": "2026-05-11T08:56:18.601Z"
-  },
-  {
-    "name": "HARRY POTTER SPORT CANTEEN",
-    "slug": "harry-potter-sport-canteen",
-    "description": "Marauder's Map / 20oz",
-    "excerpt": "HARRY POTTER SPORT CANTEEN - Leakproof insulated bottle.",
-    "price": 1167000,
-    "tags": ["character-green-blue-yellow-red-grey-black-brown"],
-    "thumbnail": "https://corkcicle.com/cdn/shop/products/HP2020MM-1.png?v=1760719528&width=1920",
-    "images": [
-      "https://corkcicle.com/cdn/shop/products/HP2020MM-1.png?crop=center&height=448&v=1760719528&width=448",
-      "https://corkcicle.com/cdn/shop/products/HP2020DM-5.png?crop=center&height=448&v=1760719528&width=448",
-      "https://corkcicle.com/cdn/shop/products/HP2020GRY-1.png?crop=center&height=448&v=1760557530&width=448",
-      "https://corkcicle.com/cdn/shop/products/HP2020SLY-1.png?crop=center&height=448&v=1719415196&width=448",
-      "https://corkcicle.com/cdn/shop/products/HP2020RAV-1.png?crop=center&height=448&v=1755802131&width=448",
-      "https://corkcicle.com/cdn/shop/products/HP2020HUF-1.png?crop=center&height=448&v=1695817740&width=448",
-      "https://corkcicle.com/cdn/shop/products/HP2020DH-5.png?crop=center&height=448&v=1755802131&width=448"
-    ],
-    "createdAt": "2026-05-11T08:56:18.601Z",
-    "updatedAt": "2026-05-11T08:56:18.601Z"
-  },
-  {
-    "name": "HARRY POTTER COLD CUP",
-    "slug": "harry-potter-cold-cup",
-    "description": "Harry Potter Cold Cup",
-    "excerpt": "HARRY POTTER COLD CUP - Leakproof insulated bottle.",
-    "price": 1037000,
-    "tags": ["character-red-grey-black"],
-    "thumbnail": "https://corkcicle.com/cdn/shop/files/HP2224HERB-02.png?v=1728070252&width=1920",
-    "images": [
-      "https://corkcicle.com/cdn/shop/files/HP2224HERB-02.png?crop=center&height=448&v=1728070252&width=448"
-    ],
-    "createdAt": "2026-05-11T08:56:18.601Z",
-    "updatedAt": "2026-05-11T08:56:18.601Z"
-  },
-  {
-    "name": "RIFLE PAPER CO. COLD CUP",
-    "slug": "rifle-paper-co-cold-cup",
-    "description": "24oz / Pink Hydrangea",
-    "excerpt": "RIFLE PAPER CO. COLD CUP - Leakproof insulated bottle.",
-    "price": 1037000,
-    "tags": ["floral-purple"],
-    "thumbnail": "https://corkcicle.com/cdn/shop/files/RP2224MCPH_hero.png?v=1771455078&width=1920",
-    "images": [
-      "https://corkcicle.com/cdn/shop/files/RP2224MCPH_hero.png?crop=center&height=448&v=1771455078&width=448",
-      "https://corkcicle.com/cdn/shop/files/RP2224GCCH_hero.png?crop=center&height=448&v=1771455078&width=448",
-      "https://corkcicle.com/cdn/shop/files/RP2224GCC-02.png?crop=center&height=448&v=1771455078&width=448",
-      "https://corkcicle.com/cdn/shop/files/RP2224GBP-02.png?crop=center&height=448&v=1771455078&width=448",
-      "https://corkcicle.com/cdn/shop/files/RP2224GPR-2.png?crop=center&height=448&v=1771455078&width=448"
-    ],
-    "createdAt": "2026-05-11T08:56:18.601Z",
-    "updatedAt": "2026-05-11T08:56:18.601Z"
-  },
-  {
-    "name": "RIFLE PAPER CO. CRUISER",
-    "slug": "rifle-paper-co-cruiser",
-    "description": "Curio Cream / 40oz",
-    "excerpt": "RIFLE PAPER CO. CRUISER - Leakproof insulated bottle.",
-    "price": 1297000,
-    "tags": ["floral-white-purple-blue"],
-    "thumbnail": "https://corkcicle.com/cdn/shop/files/RP2240GCC-02_5cddf02a-7068-48ee-8cea-aa8587c19d83.png?v=1767630609&width=1920",
-    "images": [
-      "https://corkcicle.com/cdn/shop/files/RP2240GCC-02_5cddf02a-7068-48ee-8cea-aa8587c19d83.png?crop=center&height=448&v=1767630609&width=448",
-      "https://corkcicle.com/cdn/shop/files/RP2240GCGP-1.png?crop=center&height=448&v=1767630609&width=448",
-      "https://corkcicle.com/cdn/shop/files/RP2240GBH-1.png?crop=center&height=448&v=1767630609&width=448",
-      "https://corkcicle.com/cdn/shop/files/RP2240GBP-01_b2bea080-3b92-462a-a76b-3eb795451a28.png?crop=center&height=448&v=1767630609&width=448",
-      "https://corkcicle.com/cdn/shop/files/RP2240GPR-1_113d59fa-4370-41ba-a887-45aa728a4043.png?crop=center&height=448&v=1767630609&width=448"
-    ],
-    "createdAt": "2026-05-11T08:56:18.601Z",
-    "updatedAt": "2026-05-11T08:56:18.601Z"
-  },
-  {
-    "name": "RIFLE PAPER CO. SPORT CANTEEN",
-    "slug": "rifle-paper-co-sport-canteen",
-    "description": "20oz / Cherries",
-    "excerpt": "RIFLE PAPER CO. SPORT CANTEEN - Leakproof insulated bottle.",
-    "price": 1167000,
-    "tags": ["floral-white"],
-    "thumbnail": "https://corkcicle.com/cdn/shop/files/RP2020GCCH_hero.png?v=1771451099&width=1920",
-    "images": [
-      "https://corkcicle.com/cdn/shop/files/RP2020GCCH_hero.png?crop=center&height=448&v=1771451099&width=448",
-      "https://corkcicle.com/cdn/shop/files/RP2020MCPH_hero.png?crop=center&height=448&v=1771450669&width=448",
-      "https://corkcicle.com/cdn/shop/files/RP2020GCGP-3.png?crop=center&height=448&v=1771451099&width=448",
-      "https://corkcicle.com/cdn/shop/files/RP2020GCC-03_c4ede1d5-853b-46f7-8cd1-b0cd1ccf545b.png?crop=center&height=448&v=1771451099&width=448",
-      "https://corkcicle.com/cdn/shop/files/RP2020GBP-03_c38a421d-2595-4b00-8746-7daacda29eed.png?crop=center&height=448&v=1771451099&width=448",
-      "https://corkcicle.com/cdn/shop/files/RP2020GCL-4.png?crop=center&height=448&v=1771451099&width=448"
-    ],
-    "createdAt": "2026-05-11T08:56:18.601Z",
-    "updatedAt": "2026-05-11T08:56:18.601Z"
-  },
-  {
-    "name": "RIFLE PAPER CO. STEMLESS",
-    "slug": "rifle-paper-co-stemless",
-    "description": "12oz / Pink Hydrangea",
-    "excerpt": "RIFLE PAPER CO. STEMLESS - Leakproof insulated bottle.",
-    "price": 908000,
-    "tags": ["floral-white-blue-green-purple-pink"],
-    "thumbnail": "https://corkcicle.com/cdn/shop/files/RP2312MCPH_hero.png?v=1773761546&width=1920",
-    "images": [
-      "https://corkcicle.com/cdn/shop/files/RP2312MCPH_hero.png?crop=center&height=448&v=1773761546&width=448",
-      "https://corkcicle.com/cdn/shop/files/RP2312GCCH_hero.png?crop=center&height=448&v=1773761546&width=448",
-      "https://corkcicle.com/cdn/shop/products/RP2312GCGP.png?crop=center&height=448&v=1771527895&width=448",
-      "https://corkcicle.com/cdn/shop/files/RP2312GBP-02.png?crop=center&height=448&v=1771527895&width=448",
-      "https://corkcicle.com/cdn/shop/files/RP2312GCC-02_1e1f4bda-0b36-4729-838c-5ca70dda2217.png?crop=center&height=448&v=1771527895&width=448",
-      "https://corkcicle.com/cdn/shop/products/pink_02.png?crop=center&height=448&v=1771527895&width=448",
-      "https://corkcicle.com/cdn/shop/files/RP2312GPR-2.png?crop=center&height=448&v=1771527895&width=448"
-    ],
-    "createdAt": "2026-05-11T08:56:18.601Z",
-    "updatedAt": "2026-05-11T08:56:18.601Z"
-  },
-  {
-    "name": "RIFLE PAPER CO. COFFEE MUG",
-    "slug": "copy-of-classic-coffee-mug",
-    "description": "Garden Party / 16oz",
-    "excerpt": "RIFLE PAPER CO. COFFEE MUG - Leakproof insulated bottle.",
-    "price": 908000,
-    "tags": ["floral-white-blue-green-purple"],
-    "thumbnail": "https://corkcicle.com/cdn/shop/products/RP2516GCGP-3.png?v=1765898563&width=1920",
-    "images": [
-      "https://corkcicle.com/cdn/shop/products/RP2516GCGP-3.png?crop=center&height=448&v=1765898563&width=448",
-      "https://corkcicle.com/cdn/shop/files/RP2516GCC-02.png?crop=center&height=448&v=1765898563&width=448",
-      "https://corkcicle.com/cdn/shop/files/RP2516GBP-02.png?crop=center&height=448&v=1750172330&width=448",
-      "https://corkcicle.com/cdn/shop/products/13_d97cf7c6-7af5-43c2-9c01-ff29dbbc86f3.png?crop=center&height=448&v=1740001599&width=448"
-    ],
-    "createdAt": "2026-05-11T08:56:18.601Z",
-    "updatedAt": "2026-05-11T08:56:18.601Z"
-  },
-  {
-    "name": "HARRY POTTER STEMLESS",
-    "slug": "harry-potter-stemless",
-    "description": "Hedwig / 12oz",
-    "excerpt": "HARRY POTTER STEMLESS - Leakproof insulated bottle.",
-    "price": 908000,
-    "tags": ["character-green-blue-yellow-red-grey-black-white-gold"],
-    "thumbnail": "https://corkcicle.com/cdn/shop/products/HP2312HED-1.png?v=1760720162&width=1920",
-    "images": [
-      "https://corkcicle.com/cdn/shop/products/HP2312HED-1.png?crop=center&height=448&v=1760720162&width=448",
-      "https://corkcicle.com/cdn/shop/products/HP2312DM-3.png?crop=center&height=448&v=1760720162&width=448",
-      "https://corkcicle.com/cdn/shop/products/HP2312GRY-1.png?crop=center&height=448&v=1760620574&width=448",
-      "https://corkcicle.com/cdn/shop/products/HP2312SLY-1.png?crop=center&height=448&v=1760620574&width=448",
-      "https://corkcicle.com/cdn/shop/products/HP2312HUF-2.png?crop=center&height=448&v=1760620574&width=448",
-      "https://corkcicle.com/cdn/shop/products/HP2312RAV-1.png?crop=center&height=448&v=1760620574&width=448",
-      "https://corkcicle.com/cdn/shop/products/HP2312HC-1.png?crop=center&height=448&v=1760620574&width=448",
-      "https://corkcicle.com/cdn/shop/products/HP2312SNI-3.png?crop=center&height=448&v=1760620574&width=448"
-    ],
-    "createdAt": "2026-05-11T08:56:18.601Z",
-    "updatedAt": "2026-05-11T08:56:18.601Z"
-  },
-  {
-    "name": "HARRY POTTER COFFEE MUG",
-    "slug": "harry-potter-coffee-mug",
-    "description": "Gryffindor / 16oz",
-    "excerpt": "HARRY POTTER COFFEE MUG - Leakproof insulated bottle.",
-    "price": 1037000,
-    "tags": ["character-green-blue-yellow-red-grey-black"],
-    "thumbnail": "https://corkcicle.com/cdn/shop/products/HP2516GRY-2.png?v=1762269499&width=1920",
-    "images": [
-      "https://corkcicle.com/cdn/shop/products/HP2516GRY-2.png?crop=center&height=448&v=1762269499&width=448",
-      "https://corkcicle.com/cdn/shop/products/HP2516SLY-1.png?crop=center&height=448&v=1760559492&width=448",
-      "https://corkcicle.com/cdn/shop/products/HP2516RAV-2.png?crop=center&height=448&v=1760559492&width=448",
-      "https://corkcicle.com/cdn/shop/products/HP2516HUF-1.png?crop=center&height=448&v=1760559492&width=448",
-      "https://corkcicle.com/cdn/shop/products/HP2516DM-1.png?crop=center&height=448&v=1762269499&width=448",
-      "https://corkcicle.com/cdn/shop/products/HP2516HC-1-2.png?crop=center&height=448&v=1665248073&width=448"
-    ],
-    "createdAt": "2026-05-11T08:56:18.601Z",
-    "updatedAt": "2026-05-11T08:56:18.601Z"
-  },
-  {
-    "name": "HARRY POTTER TUMBLER",
-    "slug": "harry-potter-tumbler",
-    "description": "Slytherin / 16oz",
-    "excerpt": "HARRY POTTER TUMBLER - Leakproof insulated bottle.",
-    "price": 908000,
-    "tags": ["character-green-blue-yellow-red-grey-black-white-brown"],
-    "thumbnail": "https://corkcicle.com/cdn/shop/products/HP2116SLY-2.png?v=1772660020&width=1920",
-    "images": [
-      "https://corkcicle.com/cdn/shop/products/HP2116SLY-2.png?crop=center&height=448&v=1772660020&width=448",
-      "https://corkcicle.com/cdn/shop/products/HP2116DH-3.png?crop=center&height=448&v=1745334994&width=448",
-      "https://corkcicle.com/cdn/shop/products/HP2116RAV-2.png?crop=center&height=448&v=1745334994&width=448",
-      "https://corkcicle.com/cdn/shop/products/HP2116DM-3.png?crop=center&height=448&v=1772660020&width=448",
-      "https://corkcicle.com/cdn/shop/products/HP2116MM-2.png?crop=center&height=448&v=1772660020&width=448"
-    ],
-    "createdAt": "2026-05-11T08:56:18.601Z",
-    "updatedAt": "2026-05-11T08:56:18.601Z"
-  },
-  {
-    "name": "RIFLE PAPER CO. COLD CUP XL",
-    "slug": "rifle-cold-cup-xl",
-    "description": "Rifle Paper Co. Cold Cup XL",
-    "excerpt": "RIFLE PAPER CO. COLD CUP XL - Leakproof insulated bottle.",
-    "price": 1167000,
-    "tags": ["floral-white"],
-    "thumbnail": "https://corkcicle.com/cdn/shop/files/RP2232GCGP.png?v=1697463223&width=1920",
-    "images": [
-      "https://corkcicle.com/cdn/shop/files/RP2232GCGP.png?crop=center&height=448&v=1697463223&width=448"
-    ],
-    "createdAt": "2026-05-11T08:56:18.601Z",
-    "updatedAt": "2026-05-11T08:56:18.601Z"
-  },
-  {
-    "name": "RIFLE PAPER CO. TUMBLER",
-    "slug": "rifle-paper-co-tumbler",
-    "description": "24oz / Garden Party",
-    "excerpt": "RIFLE PAPER CO. TUMBLER - Leakproof insulated bottle.",
-    "price": 1037000,
-    "tags": ["floral-white-blue-green-pink"],
-    "thumbnail": "https://corkcicle.com/cdn/shop/products/RP2124GCGP-1.png?v=1699362844&width=1920",
-    "images": [
-      "https://corkcicle.com/cdn/shop/products/RP2124GCGP-1.png?crop=center&height=448&v=1699362844&width=448",
-      "https://corkcicle.com/cdn/shop/products/Lively_Floral_16oz_Tumbler-1.png?crop=center&height=448&v=1703195041&width=448"
-    ],
-    "createdAt": "2026-05-11T08:56:18.601Z",
-    "updatedAt": "2026-05-11T08:56:18.601Z"
-  },
-  {
-    "name": "RIFLE PAPER CO. ICE BUCKET",
-    "slug": "rifle-ice-bucket",
-    "description": "Rifle Paper Co. Ice Bucket",
-    "excerpt": "RIFLE PAPER CO. ICE BUCKET - Leakproof insulated bottle.",
-    "price": 3370000,
-    "tags": ["floral-white"],
-    "thumbnail": "https://corkcicle.com/cdn/shop/products/RP8201GCGP-2.png?v=1680203172&width=1920",
-    "images": [
-      "https://corkcicle.com/cdn/shop/products/RP8201GCGP-2.png?crop=center&height=448&v=1680203172&width=448"
-    ],
-    "createdAt": "2026-05-11T08:56:18.601Z",
-    "updatedAt": "2026-05-11T08:56:18.601Z"
-  },
-  {
-    "name": "RIFLE PAPER CO. STEMLESS FLUTE",
-    "slug": "rifle-paper-co-stemless-flute",
-    "description": "Rifle Paper Co. Stemless Flute",
-    "excerpt": "RIFLE PAPER CO. STEMLESS FLUTE - Leakproof insulated bottle.",
-    "price": 778000,
-    "tags": ["floral-white"],
-    "thumbnail": "https://corkcicle.com/cdn/shop/products/RP2408GCGP-2.png?v=1680640608&width=1920",
-    "images": [
-      "https://corkcicle.com/cdn/shop/products/RP2408GCGP-2.png?crop=center&height=448&v=1680640608&width=448"
-    ],
-    "createdAt": "2026-05-11T08:56:18.601Z",
-    "updatedAt": "2026-05-11T08:56:18.601Z"
-  }
+﻿[
+    {
+        "id":  1,
+        "name":  "RIFLE PAPER CO. LEAKPROOF CRUISER",
+        "slug":  "rifle-paper-co-leakproof-cruiser",
+        "description":  "Pink Hydrangea / 22oz",
+        "excerpt":  "RIFLE PAPER CO. LEAKPROOF CRUISER - Leakproof insulated bottle.",
+        "price":  1037000,
+        "tags":  [
+                     "pink-sparkle-pattern-floral-green"
+                 ],
+        "thumbnail":  "https://corkcicle.com/cdn/shop/files/RP2222MCPH_hero_7acf7745-eb71-4e37-84f5-078fb2ae496a.png?v=1775577498\u0026width=1920",
+        "images":  [
+                       "https://corkcicle.com/cdn/shop/files/RP2222MCPH_hero_7acf7745-eb71-4e37-84f5-078fb2ae496a.png?crop=center\u0026height=448\u0026v=1775577498\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/files/RP2222GCCH_hero_5b9c3709-388e-4254-be91-6e5172948154.png?crop=center\u0026height=448\u0026v=1775577498\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/files/RP2222GBP-01.png?crop=center\u0026height=448\u0026v=1775577498\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/files/RP2222GCGP-01.png?crop=center\u0026height=448\u0026v=1775577498\u0026width=448"
+                   ],
+        "createdAt":  "2026-05-11T08:56:18.601Z",
+        "updatedAt":  "2026-05-11T08:56:18.601Z"
+    },
+    {
+        "id":  2,
+        "name":  "HARRY POTTER LEAKPROOF CRUISER",
+        "slug":  "harry-potter-leakproof-cruiser",
+        "description":  "Hogwarts Express / 40oz",
+        "excerpt":  "HARRY POTTER LEAKPROOF CRUISER - Leakproof insulated bottle.",
+        "price":  1297000,
+        "tags":  [
+                     "character-red-grey-black"
+                 ],
+        "thumbnail":  "https://corkcicle.com/cdn/shop/files/hogwartsexpress_hero_v3.png?v=1774979796\u0026width=1920",
+        "images":  [
+                       "https://corkcicle.com/cdn/shop/files/hogwartsexpress_hero_v3.png?crop=center\u0026height=448\u0026v=1774979796\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/files/Patronus_hero_v2.png?crop=center\u0026height=448\u0026v=1774979796\u0026width=448"
+                   ],
+        "createdAt":  "2026-05-11T08:56:18.601Z",
+        "updatedAt":  "2026-05-11T08:56:18.601Z"
+    },
+    {
+        "id":  3,
+        "name":  "HARRY POTTER CRUISER",
+        "slug":  "harry-potter-cruiser",
+        "description":  "40oz / Herbology",
+        "excerpt":  "HARRY POTTER CRUISER - Leakproof insulated bottle.",
+        "price":  1297000,
+        "tags":  [
+                     "character-red-grey-black"
+                 ],
+        "thumbnail":  "https://corkcicle.com/cdn/shop/files/HP2240HERB-01_d86d6e99-be92-486f-b23d-914684068877.png?v=1773760452\u0026width=1920",
+        "images":  [
+                       "https://corkcicle.com/cdn/shop/files/HP2240HERB-01_d86d6e99-be92-486f-b23d-914684068877.png?crop=center\u0026height=448\u0026v=1773760452\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/files/HP2240MM-01_1e5b945d-fefb-478c-ab28-ccd489b4938f.png?crop=center\u0026height=448\u0026v=1773760452\u0026width=448"
+                   ],
+        "createdAt":  "2026-05-11T08:56:18.601Z",
+        "updatedAt":  "2026-05-11T08:56:18.601Z"
+    },
+    {
+        "id":  4,
+        "name":  "HARRY POTTER SPORT CANTEEN",
+        "slug":  "harry-potter-sport-canteen",
+        "description":  "Marauder\u0027s Map / 20oz",
+        "excerpt":  "HARRY POTTER SPORT CANTEEN - Leakproof insulated bottle.",
+        "price":  1167000,
+        "tags":  [
+                     "character-green-blue-yellow-red-grey-black-brown"
+                 ],
+        "thumbnail":  "https://corkcicle.com/cdn/shop/products/HP2020MM-1.png?v=1760719528\u0026width=1920",
+        "images":  [
+                       "https://corkcicle.com/cdn/shop/products/HP2020MM-1.png?crop=center\u0026height=448\u0026v=1760719528\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/products/HP2020DM-5.png?crop=center\u0026height=448\u0026v=1760719528\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/products/HP2020GRY-1.png?crop=center\u0026height=448\u0026v=1760557530\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/products/HP2020SLY-1.png?crop=center\u0026height=448\u0026v=1719415196\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/products/HP2020RAV-1.png?crop=center\u0026height=448\u0026v=1755802131\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/products/HP2020HUF-1.png?crop=center\u0026height=448\u0026v=1695817740\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/products/HP2020DH-5.png?crop=center\u0026height=448\u0026v=1755802131\u0026width=448"
+                   ],
+        "createdAt":  "2026-05-11T08:56:18.601Z",
+        "updatedAt":  "2026-05-11T08:56:18.601Z"
+    },
+    {
+        "id":  5,
+        "name":  "HARRY POTTER COLD CUP",
+        "slug":  "harry-potter-cold-cup",
+        "description":  "Harry Potter Cold Cup",
+        "excerpt":  "HARRY POTTER COLD CUP - Leakproof insulated bottle.",
+        "price":  1037000,
+        "tags":  [
+                     "character-red-grey-black"
+                 ],
+        "thumbnail":  "https://corkcicle.com/cdn/shop/files/HP2224HERB-02.png?v=1728070252\u0026width=1920",
+        "images":  [
+                       "https://corkcicle.com/cdn/shop/files/HP2224HERB-02.png?crop=center\u0026height=448\u0026v=1728070252\u0026width=448"
+                   ],
+        "createdAt":  "2026-05-11T08:56:18.601Z",
+        "updatedAt":  "2026-05-11T08:56:18.601Z"
+    },
+    {
+        "id":  6,
+        "name":  "RIFLE PAPER CO. COLD CUP",
+        "slug":  "rifle-paper-co-cold-cup",
+        "description":  "24oz / Pink Hydrangea",
+        "excerpt":  "RIFLE PAPER CO. COLD CUP - Leakproof insulated bottle.",
+        "price":  1037000,
+        "tags":  [
+                     "floral-purple"
+                 ],
+        "thumbnail":  "https://corkcicle.com/cdn/shop/files/RP2224MCPH_hero.png?v=1771455078\u0026width=1920",
+        "images":  [
+                       "https://corkcicle.com/cdn/shop/files/RP2224MCPH_hero.png?crop=center\u0026height=448\u0026v=1771455078\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/files/RP2224GCCH_hero.png?crop=center\u0026height=448\u0026v=1771455078\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/files/RP2224GCC-02.png?crop=center\u0026height=448\u0026v=1771455078\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/files/RP2224GBP-02.png?crop=center\u0026height=448\u0026v=1771455078\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/files/RP2224GPR-2.png?crop=center\u0026height=448\u0026v=1771455078\u0026width=448"
+                   ],
+        "createdAt":  "2026-05-11T08:56:18.601Z",
+        "updatedAt":  "2026-05-11T08:56:18.601Z"
+    },
+    {
+        "id":  7,
+        "name":  "RIFLE PAPER CO. CRUISER",
+        "slug":  "rifle-paper-co-cruiser",
+        "description":  "Curio Cream / 40oz",
+        "excerpt":  "RIFLE PAPER CO. CRUISER - Leakproof insulated bottle.",
+        "price":  1297000,
+        "tags":  [
+                     "floral-white-purple-blue"
+                 ],
+        "thumbnail":  "https://corkcicle.com/cdn/shop/files/RP2240GCC-02_5cddf02a-7068-48ee-8cea-aa8587c19d83.png?v=1767630609\u0026width=1920",
+        "images":  [
+                       "https://corkcicle.com/cdn/shop/files/RP2240GCC-02_5cddf02a-7068-48ee-8cea-aa8587c19d83.png?crop=center\u0026height=448\u0026v=1767630609\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/files/RP2240GCGP-1.png?crop=center\u0026height=448\u0026v=1767630609\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/files/RP2240GBH-1.png?crop=center\u0026height=448\u0026v=1767630609\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/files/RP2240GBP-01_b2bea080-3b92-462a-a76b-3eb795451a28.png?crop=center\u0026height=448\u0026v=1767630609\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/files/RP2240GPR-1_113d59fa-4370-41ba-a887-45aa728a4043.png?crop=center\u0026height=448\u0026v=1767630609\u0026width=448"
+                   ],
+        "createdAt":  "2026-05-11T08:56:18.601Z",
+        "updatedAt":  "2026-05-11T08:56:18.601Z"
+    },
+    {
+        "id":  8,
+        "name":  "RIFLE PAPER CO. SPORT CANTEEN",
+        "slug":  "rifle-paper-co-sport-canteen",
+        "description":  "20oz / Cherries",
+        "excerpt":  "RIFLE PAPER CO. SPORT CANTEEN - Leakproof insulated bottle.",
+        "price":  1167000,
+        "tags":  [
+                     "floral-white"
+                 ],
+        "thumbnail":  "https://corkcicle.com/cdn/shop/files/RP2020GCCH_hero.png?v=1771451099\u0026width=1920",
+        "images":  [
+                       "https://corkcicle.com/cdn/shop/files/RP2020GCCH_hero.png?crop=center\u0026height=448\u0026v=1771451099\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/files/RP2020MCPH_hero.png?crop=center\u0026height=448\u0026v=1771450669\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/files/RP2020GCGP-3.png?crop=center\u0026height=448\u0026v=1771451099\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/files/RP2020GCC-03_c4ede1d5-853b-46f7-8cd1-b0cd1ccf545b.png?crop=center\u0026height=448\u0026v=1771451099\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/files/RP2020GBP-03_c38a421d-2595-4b00-8746-7daacda29eed.png?crop=center\u0026height=448\u0026v=1771451099\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/files/RP2020GCL-4.png?crop=center\u0026height=448\u0026v=1771451099\u0026width=448"
+                   ],
+        "createdAt":  "2026-05-11T08:56:18.601Z",
+        "updatedAt":  "2026-05-11T08:56:18.601Z"
+    },
+    {
+        "id":  9,
+        "name":  "RIFLE PAPER CO. STEMLESS",
+        "slug":  "rifle-paper-co-stemless",
+        "description":  "12oz / Pink Hydrangea",
+        "excerpt":  "RIFLE PAPER CO. STEMLESS - Leakproof insulated bottle.",
+        "price":  908000,
+        "tags":  [
+                     "floral-white-blue-green-purple-pink"
+                 ],
+        "thumbnail":  "https://corkcicle.com/cdn/shop/files/RP2312MCPH_hero.png?v=1773761546\u0026width=1920",
+        "images":  [
+                       "https://corkcicle.com/cdn/shop/files/RP2312MCPH_hero.png?crop=center\u0026height=448\u0026v=1773761546\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/files/RP2312GCCH_hero.png?crop=center\u0026height=448\u0026v=1773761546\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/products/RP2312GCGP.png?crop=center\u0026height=448\u0026v=1771527895\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/files/RP2312GBP-02.png?crop=center\u0026height=448\u0026v=1771527895\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/files/RP2312GCC-02_1e1f4bda-0b36-4729-838c-5ca70dda2217.png?crop=center\u0026height=448\u0026v=1771527895\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/products/pink_02.png?crop=center\u0026height=448\u0026v=1771527895\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/files/RP2312GPR-2.png?crop=center\u0026height=448\u0026v=1771527895\u0026width=448"
+                   ],
+        "createdAt":  "2026-05-11T08:56:18.601Z",
+        "updatedAt":  "2026-05-11T08:56:18.601Z"
+    },
+    {
+        "id":  10,
+        "name":  "RIFLE PAPER CO. COFFEE MUG",
+        "slug":  "copy-of-classic-coffee-mug",
+        "description":  "Garden Party / 16oz",
+        "excerpt":  "RIFLE PAPER CO. COFFEE MUG - Leakproof insulated bottle.",
+        "price":  908000,
+        "tags":  [
+                     "floral-white-blue-green-purple"
+                 ],
+        "thumbnail":  "https://corkcicle.com/cdn/shop/products/RP2516GCGP-3.png?v=1765898563\u0026width=1920",
+        "images":  [
+                       "https://corkcicle.com/cdn/shop/products/RP2516GCGP-3.png?crop=center\u0026height=448\u0026v=1765898563\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/files/RP2516GCC-02.png?crop=center\u0026height=448\u0026v=1765898563\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/files/RP2516GBP-02.png?crop=center\u0026height=448\u0026v=1750172330\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/products/13_d97cf7c6-7af5-43c2-9c01-ff29dbbc86f3.png?crop=center\u0026height=448\u0026v=1740001599\u0026width=448"
+                   ],
+        "createdAt":  "2026-05-11T08:56:18.601Z",
+        "updatedAt":  "2026-05-11T08:56:18.601Z"
+    },
+    {
+        "id":  11,
+        "name":  "HARRY POTTER STEMLESS",
+        "slug":  "harry-potter-stemless",
+        "description":  "Hedwig / 12oz",
+        "excerpt":  "HARRY POTTER STEMLESS - Leakproof insulated bottle.",
+        "price":  908000,
+        "tags":  [
+                     "character-green-blue-yellow-red-grey-black-white-gold"
+                 ],
+        "thumbnail":  "https://corkcicle.com/cdn/shop/products/HP2312HED-1.png?v=1760720162\u0026width=1920",
+        "images":  [
+                       "https://corkcicle.com/cdn/shop/products/HP2312HED-1.png?crop=center\u0026height=448\u0026v=1760720162\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/products/HP2312DM-3.png?crop=center\u0026height=448\u0026v=1760720162\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/products/HP2312GRY-1.png?crop=center\u0026height=448\u0026v=1760620574\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/products/HP2312SLY-1.png?crop=center\u0026height=448\u0026v=1760620574\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/products/HP2312HUF-2.png?crop=center\u0026height=448\u0026v=1760620574\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/products/HP2312RAV-1.png?crop=center\u0026height=448\u0026v=1760620574\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/products/HP2312HC-1.png?crop=center\u0026height=448\u0026v=1760620574\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/products/HP2312SNI-3.png?crop=center\u0026height=448\u0026v=1760620574\u0026width=448"
+                   ],
+        "createdAt":  "2026-05-11T08:56:18.601Z",
+        "updatedAt":  "2026-05-11T08:56:18.601Z"
+    },
+    {
+        "id":  12,
+        "name":  "HARRY POTTER COFFEE MUG",
+        "slug":  "harry-potter-coffee-mug",
+        "description":  "Gryffindor / 16oz",
+        "excerpt":  "HARRY POTTER COFFEE MUG - Leakproof insulated bottle.",
+        "price":  1037000,
+        "tags":  [
+                     "character-green-blue-yellow-red-grey-black"
+                 ],
+        "thumbnail":  "https://corkcicle.com/cdn/shop/products/HP2516GRY-2.png?v=1762269499\u0026width=1920",
+        "images":  [
+                       "https://corkcicle.com/cdn/shop/products/HP2516GRY-2.png?crop=center\u0026height=448\u0026v=1762269499\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/products/HP2516SLY-1.png?crop=center\u0026height=448\u0026v=1760559492\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/products/HP2516RAV-2.png?crop=center\u0026height=448\u0026v=1760559492\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/products/HP2516HUF-1.png?crop=center\u0026height=448\u0026v=1760559492\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/products/HP2516DM-1.png?crop=center\u0026height=448\u0026v=1762269499\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/products/HP2516HC-1-2.png?crop=center\u0026height=448\u0026v=1665248073\u0026width=448"
+                   ],
+        "createdAt":  "2026-05-11T08:56:18.601Z",
+        "updatedAt":  "2026-05-11T08:56:18.601Z"
+    },
+    {
+        "id":  13,
+        "name":  "HARRY POTTER TUMBLER",
+        "slug":  "harry-potter-tumbler",
+        "description":  "Slytherin / 16oz",
+        "excerpt":  "HARRY POTTER TUMBLER - Leakproof insulated bottle.",
+        "price":  908000,
+        "tags":  [
+                     "character-green-blue-yellow-red-grey-black-white-brown"
+                 ],
+        "thumbnail":  "https://corkcicle.com/cdn/shop/products/HP2116SLY-2.png?v=1772660020\u0026width=1920",
+        "images":  [
+                       "https://corkcicle.com/cdn/shop/products/HP2116SLY-2.png?crop=center\u0026height=448\u0026v=1772660020\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/products/HP2116DH-3.png?crop=center\u0026height=448\u0026v=1745334994\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/products/HP2116RAV-2.png?crop=center\u0026height=448\u0026v=1745334994\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/products/HP2116DM-3.png?crop=center\u0026height=448\u0026v=1772660020\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/products/HP2116MM-2.png?crop=center\u0026height=448\u0026v=1772660020\u0026width=448"
+                   ],
+        "createdAt":  "2026-05-11T08:56:18.601Z",
+        "updatedAt":  "2026-05-11T08:56:18.601Z"
+    },
+    {
+        "id":  14,
+        "name":  "RIFLE PAPER CO. COLD CUP XL",
+        "slug":  "rifle-cold-cup-xl",
+        "description":  "Rifle Paper Co. Cold Cup XL",
+        "excerpt":  "RIFLE PAPER CO. COLD CUP XL - Leakproof insulated bottle.",
+        "price":  1167000,
+        "tags":  [
+                     "floral-white"
+                 ],
+        "thumbnail":  "https://corkcicle.com/cdn/shop/files/RP2232GCGP.png?v=1697463223\u0026width=1920",
+        "images":  [
+                       "https://corkcicle.com/cdn/shop/files/RP2232GCGP.png?crop=center\u0026height=448\u0026v=1697463223\u0026width=448"
+                   ],
+        "createdAt":  "2026-05-11T08:56:18.601Z",
+        "updatedAt":  "2026-05-11T08:56:18.601Z"
+    },
+    {
+        "id":  15,
+        "name":  "RIFLE PAPER CO. TUMBLER",
+        "slug":  "rifle-paper-co-tumbler",
+        "description":  "24oz / Garden Party",
+        "excerpt":  "RIFLE PAPER CO. TUMBLER - Leakproof insulated bottle.",
+        "price":  1037000,
+        "tags":  [
+                     "floral-white-blue-green-pink"
+                 ],
+        "thumbnail":  "https://corkcicle.com/cdn/shop/products/RP2124GCGP-1.png?v=1699362844\u0026width=1920",
+        "images":  [
+                       "https://corkcicle.com/cdn/shop/products/RP2124GCGP-1.png?crop=center\u0026height=448\u0026v=1699362844\u0026width=448",
+                       "https://corkcicle.com/cdn/shop/products/Lively_Floral_16oz_Tumbler-1.png?crop=center\u0026height=448\u0026v=1703195041\u0026width=448"
+                   ],
+        "createdAt":  "2026-05-11T08:56:18.601Z",
+        "updatedAt":  "2026-05-11T08:56:18.601Z"
+    },
+    {
+        "id":  16,
+        "name":  "RIFLE PAPER CO. ICE BUCKET",
+        "slug":  "rifle-ice-bucket",
+        "description":  "Rifle Paper Co. Ice Bucket",
+        "excerpt":  "RIFLE PAPER CO. ICE BUCKET - Leakproof insulated bottle.",
+        "price":  3370000,
+        "tags":  [
+                     "floral-white"
+                 ],
+        "thumbnail":  "https://corkcicle.com/cdn/shop/products/RP8201GCGP-2.png?v=1680203172\u0026width=1920",
+        "images":  [
+                       "https://corkcicle.com/cdn/shop/products/RP8201GCGP-2.png?crop=center\u0026height=448\u0026v=1680203172\u0026width=448"
+                   ],
+        "createdAt":  "2026-05-11T08:56:18.601Z",
+        "updatedAt":  "2026-05-11T08:56:18.601Z"
+    },
+    {
+        "id":  17,
+        "name":  "RIFLE PAPER CO. STEMLESS FLUTE",
+        "slug":  "rifle-paper-co-stemless-flute",
+        "description":  "Rifle Paper Co. Stemless Flute",
+        "excerpt":  "RIFLE PAPER CO. STEMLESS FLUTE - Leakproof insulated bottle.",
+        "price":  778000,
+        "tags":  [
+                     "floral-white"
+                 ],
+        "thumbnail":  "https://corkcicle.com/cdn/shop/products/RP2408GCGP-2.png?v=1680640608\u0026width=1920",
+        "images":  [
+                       "https://corkcicle.com/cdn/shop/products/RP2408GCGP-2.png?crop=center\u0026height=448\u0026v=1680640608\u0026width=448"
+                   ],
+        "createdAt":  "2026-05-11T08:56:18.601Z",
+        "updatedAt":  "2026-05-11T08:56:18.601Z"
+    }
 ]

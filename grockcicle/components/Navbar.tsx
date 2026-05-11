@@ -18,15 +18,13 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-gray-200 bg-white">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 md:px-8">
-        {/* Logo */}
         <Link
           href="/home"
           className="text-xl font-bold tracking-widest uppercase text-gray-900"
         >
-          Grockcicle
+          Grockcicle.
         </Link>
 
-        {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-6">
           {navLinks.map((link) => (
             <Link
@@ -39,9 +37,7 @@ export default function Navbar() {
           ))}
         </nav>
 
-        {/* Icons */}
         <div className="flex items-center gap-4">
-          {/* Search */}
           <button
             aria-label="Search"
             className="text-gray-700 hover:text-black transition-colors"
@@ -62,7 +58,6 @@ export default function Navbar() {
             </svg>
           </button>
 
-          {/* Wishlist */}
           <Link
             href="/wishlist"
             aria-label="Wishlist"
@@ -84,7 +79,6 @@ export default function Navbar() {
             </svg>
           </Link>
 
-          {/* Account */}
           <Link
             href="/login"
             aria-label="Account"
@@ -106,7 +100,6 @@ export default function Navbar() {
             </svg>
           </Link>
 
-          {/* Hamburger — mobile only */}
           <button
             aria-label="Toggle menu"
             className="md:hidden text-gray-700 hover:text-black transition-colors"
@@ -147,7 +140,6 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       {menuOpen && (
         <nav className="md:hidden border-t border-gray-200 bg-white px-4 py-4 flex flex-col gap-4">
           {navLinks.map((link) => (
