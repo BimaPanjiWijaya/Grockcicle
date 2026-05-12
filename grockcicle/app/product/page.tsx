@@ -1,4 +1,6 @@
+import { Suspense } from "react";
 import ProductList from "@/components/ProductList";
+import ProductSearch from "@/components/ProductSearch";
 import { Product } from "@/types";
 
 const categoryLabels: Record<string, string> = {
@@ -15,13 +17,15 @@ export default async function ProductPage({
 }: {
   searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
 }) {
-  const { category } = await searchParams;
+  const { category, q } = await searchParams;
   const categoryValue = typeof category === "string" ? category : "";
+  const queryValue = typeof q === "string" ? q : "";
 
-  const url = categoryValue
-    ? `http://localhost:3001/product?category=${categoryValue}`
-    : `http://localhost:3001/product`;
+  const params = new URLSearchParams();
+  if (categoryValue) params.set("category", categoryValue);
+  if (queryValue) params.set("name_like", queryValue);
 
+  const url = `http://localhost:3001/product?${params.toString()}`;
   const res = await fetch(url, { cache: "no-store" });
   const products: Product[] = await res.json();
 
@@ -29,13 +33,18 @@ export default async function ProductPage({
 
   return (
     <main className="flex-1">
-      <div className="mx-auto max-w-7xl px-4 md:px-8 pt-10">
-        <h1 className="text-2xl font-bold tracking-tight text-gray-900">
-          {pageTitle}
-        </h1>
-        <p className="mt-1 text-sm text-gray-400">
-          {products.length} products
-        </p>
+      <div className="mx-auto max-w-7xl px-4 md:px-8 pt-10 pb-4">
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+          <div>
+            <h1 className="text-2xl font-bold tracking-tight text-gray-900">
+              {pageTitle}
+            </h1>
+            <p className="mt-1 text-sm text-gray-400">{products.length} products</p>
+          </div>
+          <Suspense>
+            <ProductSearch />
+          </Suspense>
+        </div>
       </div>
       <ProductList products={products} />
     </main>
