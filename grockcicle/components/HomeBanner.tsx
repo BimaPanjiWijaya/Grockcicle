@@ -90,8 +90,8 @@ export default function HomeBanner() {
 
       <div className="w-full bg-gray-900 py-3 text-center">
         <p className="text-xs font-semibold uppercase tracking-[0.2em] text-white">
-          Free Shipping On Orders $55+ &nbsp;·&nbsp; Use Code:{" "}
-          <span className="text-amber-300">GROKCICLE10</span> for 10% Off
+          come on spend your money on&nbsp;
+          <span className="text-amber-300">GROCKCICLE</span>
         </p>
       </div>
 
