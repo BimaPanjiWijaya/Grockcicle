@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Product } from "@/types";
+import ProductAddWishlist from "@/components/ProductAddwishlist";
 
 export default function ProductList({ products }: { products: Product[] }) {
   if (!products.length) {
@@ -34,9 +35,12 @@ export default function ProductList({ products }: { products: Product[] }) {
                 {product.name}
               </p>
               <p className="text-xs text-gray-400">{product.description}</p>
-              <p className="text-sm font-bold text-gray-900">
-                Rp {product.price.toLocaleString("id-ID")}
-              </p>
+              <div className="flex items-center justify-between mt-1">
+                <p className="text-sm font-bold text-gray-900">
+                  Rp {product.price.toLocaleString("id-ID")}
+                </p>
+                <ProductAddWishlist product={product} className="ml-2" />
+              </div>
             </div>
           </Link>
         ))}
