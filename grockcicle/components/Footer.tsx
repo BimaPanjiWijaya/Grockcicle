@@ -111,11 +111,11 @@ export default function Footer() {
   }
 
   return (
-    <footer className="bg-white border-t border-gray-200 text-gray-700">
+    <footer className="bg-gray-900 text-gray-300">
       {/* Newsletter */}
-      <div className="border-b border-gray-200 py-8 px-4 md:px-8">
+      <div className="border-b border-gray-700 py-8 px-4 md:px-8">
         <div className="mx-auto max-w-7xl flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-sm font-semibold tracking-widest uppercase text-gray-900">
+          <p className="text-sm font-semibold tracking-widest uppercase text-white">
             Nothing is free in thisworld
           </p>
           {submitted ? (
@@ -155,7 +155,7 @@ export default function Footer() {
                 <li key={link.label}>
                   <Link
                     href={link.href}
-                    className="text-sm text-gray-500 hover:text-gray-900 transition-colors"
+                    className="text-sm text-gray-400 hover:text-white transition-colors"
                   >
                     {link.label}
                   </Link>
@@ -167,17 +167,17 @@ export default function Footer() {
       </div>
 
       {/* Bottom bar */}
-      <div className="border-t border-gray-200 px-4 md:px-8 py-5">
+      <div className="border-t border-gray-700 px-4 md:px-8 py-5">
         <div className="mx-auto max-w-7xl flex flex-col md:flex-row items-center justify-between gap-4">
           {/* Logo + copyright */}
           <div className="flex items-center gap-6">
             <Link
               href="/home"
-              className="text-sm font-bold tracking-widest uppercase text-gray-900"
+              className="text-sm font-bold tracking-widest uppercase text-white"
             >
               Grockcicle
             </Link>
-            <span className="text-xs text-gray-400">
+            <span className="text-xs text-gray-500">
               © {new Date().getFullYear()} Grockcicle. All Rights Reserved.
             </span>
           </div>
@@ -189,7 +189,7 @@ export default function Footer() {
                 key={s.label}
                 href={s.href}
                 aria-label={s.label}
-                className="text-gray-400 hover:text-gray-900 transition-colors"
+                className="text-gray-400 hover:text-white transition-colors"
               >
                 {s.icon}
               </a>
