@@ -8,6 +8,7 @@ export type ProductType = {
   tags: string[];
   thumbnail: string;
   images: string[];
+  category: string;
   createdAt: string;
   updatedAt: string;
 };
