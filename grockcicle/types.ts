@@ -1,4 +1,4 @@
-export type ProductType = {
+export type Product = {
   id: number;
   name: string;
   slug: string;
@@ -8,7 +8,7 @@ export type ProductType = {
   tags: string[];
   thumbnail: string;
   images: string[];
-  category: string;
   createdAt: string;
   updatedAt: string;
+  category: string;
 };
