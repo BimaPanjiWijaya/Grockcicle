@@ -1,4 +1,3 @@
-import { ObjectId } from "mongodb";
 import { database } from "../config/mongodb";
 
 class ProductModel {
@@ -9,9 +8,9 @@ class ProductModel {
     const products = await this.collection().find().toArray();
     return products;
   }
-  static async GetProductById(id: string) {
-    const product = await this.collection().findOne({ _id: new ObjectId(id) });
-    return product;
+  static async GetProductBySlug(slug: string) {
+    const products = await this.collection().findOne({ slug });
+    return products;
   }
 }
 
