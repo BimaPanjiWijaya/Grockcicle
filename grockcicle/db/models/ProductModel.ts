@@ -4,8 +4,8 @@ class ProductModel {
   static collection() {
     return database.collection("products");
   }
-  static async GetAllProducts() {
-    const products = await this.collection().find().toArray();
+  static async GetAllProducts(filter: Record<string, any> = {}) {
+    const products = await this.collection().find(filter).toArray();
     return products;
   }
   static async GetProductBySlug(slug: string) {

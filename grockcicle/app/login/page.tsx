@@ -70,7 +70,6 @@ export default function LoginPage() {
           </p>
 
           <form onSubmit={handleSubmit} className="mt-8 flex flex-col gap-5">
-            {/* Email */}
             <div className="flex flex-col gap-1.5">
               <label
                 htmlFor="email"
