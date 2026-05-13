@@ -14,3 +14,5 @@ class ProductModel {
     return product;
   }
 }
+
+export default ProductModel;
