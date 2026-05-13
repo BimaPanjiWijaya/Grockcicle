@@ -3,7 +3,7 @@ import { Product } from "@/types";
 import ProductAddWishlist from "@/components/ProductAddwishlist";
 
 async function getProduct(slug: string): Promise<Product | null> {
-  const res = await fetch(`http://localhost:3001/product?slug=${slug}`, {
+  const res = await fetch(`http://localhost:3000/api/product?slug=${slug}`, {
     cache: "no-store",
   });
   if (!res.ok) return null;
