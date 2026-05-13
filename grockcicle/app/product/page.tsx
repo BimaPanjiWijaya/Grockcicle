@@ -25,7 +25,7 @@ export default async function ProductPage({
   if (categoryValue) params.set("category", categoryValue);
   if (queryValue) params.set("name_like", queryValue);
 
-  const url = `http://localhost:3001/product?${params.toString()}`;
+  const url = `http://localhost:3000/api/product?${params.toString()}`;
   const res = await fetch(url, { cache: "no-store" });
   const products: Product[] = await res.json();
 
@@ -39,7 +39,9 @@ export default async function ProductPage({
             <h1 className="text-2xl font-bold tracking-tight text-gray-900">
               {pageTitle}
             </h1>
-            <p className="mt-1 text-sm text-gray-400">{products.length} products</p>
+            <p className="mt-1 text-sm text-gray-400">
+              {products.length} products
+            </p>
           </div>
           <Suspense>
             <ProductSearch />
