@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Product } from "@/types";
+import { Metadata } from "next";
 import ProductAddWishlist from "@/components/ProductAddwishlist";
 
 async function getProduct(slug: string): Promise<Product | null> {
@@ -8,6 +9,29 @@ async function getProduct(slug: string): Promise<Product | null> {
   });
   if (!res.ok) return null;
   return res.json();
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+  const product = await getProduct(slug);
+
+  if (!product) {
+    return { title: "Product Not Found" };
+  }
+
+  return {
+    title: `${product.name} - Grockcicle`,
+    description: product.excerpt,
+    openGraph: {
+      title: product.name,
+      description: product.excerpt,
+      images: [{ url: product.thumbnail }],
+    },
+  };
 }
 
 export default async function ProductDetailPage({
