@@ -167,7 +167,7 @@ export default function RegisterPage() {
                   required
                   value={form.password}
                   onChange={handleChange}
-                  placeholder="Min. 8 characters"
+                  placeholder="Min. 6 characters"
                   className="w-full rounded-lg border border-gray-200 px-4 py-3 pr-11 text-sm text-gray-900 placeholder-gray-400 outline-none focus:border-gray-900 focus:ring-1 focus:ring-gray-900 transition"
                 />
                 <button
