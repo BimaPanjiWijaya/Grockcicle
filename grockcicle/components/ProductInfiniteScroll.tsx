@@ -13,18 +13,22 @@ type Props = {
 
 const LIMIT = 8;
 
-export default function ProductInfiniteScroll({ category = "", q = "" }: Props) {
+export default function ProductInfiniteScroll({
+  category = "",
+  q = "",
+}: Props) {
   const [products, setProducts] = useState<Product[]>([]);
   const [page, setPage] = useState(1);
   const [hasMore, setHasMore] = useState(true);
   const [loading, setLoading] = useState(false);
+  const [total, setTotal] = useState(0);
   const sentinelRef = useRef<HTMLDivElement>(null);
 
- 
   useEffect(() => {
     setProducts([]);
     setPage(1);
     setHasMore(true);
+    setTotal(0);
   }, [category, q]);
 
   useEffect(() => {
@@ -40,6 +44,7 @@ export default function ProductInfiniteScroll({ category = "", q = "" }: Props) 
       .then(({ items, meta }) => {
         setProducts((prev) => (page === 1 ? items : [...prev, ...items]));
         setHasMore(page < meta.totalPages);
+        setTotal(meta.total);
       })
       .finally(() => setLoading(false));
   }, [category, q, page]);
@@ -53,7 +58,7 @@ export default function ProductInfiniteScroll({ category = "", q = "" }: Props) 
           setPage((prev) => prev + 1);
         }
       },
-      { threshold: 0.1 }
+      { threshold: 0.1 },
     );
 
     observer.observe(sentinelRef.current);
@@ -70,6 +75,15 @@ export default function ProductInfiniteScroll({ category = "", q = "" }: Props) 
 
   return (
     <div className="mx-auto max-w-7xl px-4 md:px-8 py-10">
+      <div className="mb-6 flex items-center justify-between">
+        <p className="text-sm text-gray-500">
+          Showing{" "}
+          <span className="font-semibold text-gray-900">{products.length}</span>{" "}
+          of <span className="font-semibold text-gray-900">{total}</span>{" "}
+          products
+        </p>
+      </div>
+
       <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">
         {products.map((product) => (
           <Link
