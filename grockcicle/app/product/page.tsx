@@ -2,7 +2,7 @@
 
 import { Suspense } from "react";
 import { useSearchParams } from "next/navigation";
-import ProductList from "@/components/ProductList";
+import ProductInfiniteScroll from "@/components/ProductInfiniteScroll";
 import ProductSearch from "@/components/ProductSearch";
 
 const categoryLabels: Record<string, string> = {
@@ -30,7 +30,7 @@ function ProductContent() {
           <ProductSearch />
         </div>
       </div>
-      <ProductList category={category} q={q} />
+      <ProductInfiniteScroll category={category} q={q} />
     </main>
   );
 }
