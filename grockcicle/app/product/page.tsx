@@ -1,4 +1,7 @@
+"use client";
+
 import { Suspense } from "react";
+import { useSearchParams } from "next/navigation";
 import ProductList from "@/components/ProductList";
 import ProductSearch from "@/components/ProductSearch";
 
@@ -11,12 +14,10 @@ const categoryLabels: Record<string, string> = {
   "best-sellers": "Best Sellers",
 };
 
-export default async function ProductPage({
-  searchParams,
-}: {
-  searchParams: Promise<{ category?: string; q?: string }>;
-}) {
-  const { category = "", q = "" } = await searchParams;
+function ProductContent() {
+  const searchParams = useSearchParams();
+  const category = searchParams.get("category") ?? "";
+  const q = searchParams.get("q") ?? "";
   const pageTitle = categoryLabels[category] ?? "All Products";
 
   return (
@@ -26,14 +27,18 @@ export default async function ProductPage({
           <h1 className="text-2xl font-bold tracking-tight text-gray-900">
             {pageTitle}
           </h1>
-          <Suspense>
-            <ProductSearch />
-          </Suspense>
+          <ProductSearch />
         </div>
       </div>
-      <Suspense>
-        <ProductList category={category} q={q} />
-      </Suspense>
+      <ProductList category={category} q={q} />
     </main>
+  );
+}
+
+export default function ProductPage() {
+  return (
+    <Suspense>
+      <ProductContent />
+    </Suspense>
   );
 }

@@ -3,12 +3,11 @@ import { Product } from "@/types";
 import ProductAddWishlist from "@/components/ProductAddwishlist";
 
 async function getProduct(slug: string): Promise<Product | null> {
-  const res = await fetch(`http://localhost:3000/api/product?slug=${slug}`, {
+  const res = await fetch(`http://localhost:3000/api/product/${slug}`, {
     cache: "no-store",
   });
   if (!res.ok) return null;
-  const data: Product[] = await res.json();
-  return data[0] ?? null;
+  return res.json();
 }
 
 export default async function ProductDetailPage({
