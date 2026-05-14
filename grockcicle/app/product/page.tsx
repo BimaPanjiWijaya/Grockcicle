@@ -27,7 +27,8 @@ export default async function ProductPage({
 
   const url = `http://localhost:3000/api/product?${params.toString()}`;
   const res = await fetch(url, { cache: "no-store" });
-  const products: Product[] = await res.json();
+  const { items: products } = await res.json();
+  console.log("Fetched products:", products);
 
   const pageTitle = categoryLabels[categoryValue] ?? "All Products";
 

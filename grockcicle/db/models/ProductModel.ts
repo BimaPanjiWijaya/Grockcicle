@@ -12,6 +12,18 @@ class ProductModel {
     const products = await this.collection().findOne({ slug });
     return products;
   }
+  static async ProductPagination(
+    filter: Record<string, any> = {},
+    page = 1,
+    limit = 10,
+  ) {
+    const skip = (page - 1) * limit;
+    const [items, total] = await Promise.all([
+      this.collection().find(filter).skip(skip).limit(limit).toArray(),
+      this.collection().countDocuments(filter),
+    ]);
+    return { items, total };
+  }
 }
 
 export default ProductModel;
