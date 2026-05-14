@@ -1,9 +1,39 @@
+"use client";
+
+import { useEffect, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import { Product } from "@/types";
 import ProductAddWishlist from "@/components/ProductAddwishlist";
 
-export default function ProductList({ products }: { products: Product[] }) {
+export default function ProductList() {
+  const searchParams = useSearchParams();
+  const [products, setProducts] = useState<Product[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const params = new URLSearchParams();
+    const category = searchParams.get("category");
+    const q = searchParams.get("q");
+    if (category) params.set("category", category);
+    if (q) params.set("name_like", q);
+
+    setLoading(true);
+    fetch(`http://localhost:3000/api/product?${params.toString()}`)
+      .then((res) => res.json())
+      .then(({ items }) => setProducts(items))
+      .finally(() => setLoading(false));
+  }, [searchParams]);
+
+  if (loading) {
+    return (
+      <div className="flex min-h-[40vh] items-center justify-center">
+        <p className="text-sm text-gray-400">Loading...</p>
+      </div>
+    );
+  }
+
   if (!products.length) {
     return (
       <div className="flex min-h-[40vh] items-center justify-center">
