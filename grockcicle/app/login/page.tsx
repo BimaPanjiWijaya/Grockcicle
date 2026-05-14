@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, SubmitEvent } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -12,9 +12,24 @@ export default function LoginPage() {
     setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   }
 
-  function handleSubmit(e: { preventDefault: () => void }) {
+  const handleSubmit = async (e: SubmitEvent<HTMLFormElement>) => {
     e.preventDefault();
-  }
+
+    try {
+      const res = await fetch("http://localhost:3000/api/login", {
+        method: "POST",
+        body: JSON.stringify({ email: form.email, password: form.password }),
+        headers: { "Content-Type": "application/json" },
+      });
+      const response = await res.json();
+      if (!res.ok) {
+        throw response;
+      }
+      alert("Login successful!");
+    } catch (err: any) {
+      alert(err.message || "An error occurred during login.");
+    }
+  };
 
   return (
     <main className="flex min-h-[calc(100vh-64px)]">
@@ -75,7 +90,7 @@ export default function LoginPage() {
                 htmlFor="email"
                 className="text-xs font-semibold uppercase tracking-widest text-gray-700"
               >
-                Email Address
+                Email
               </label>
               <input
                 id="email"
