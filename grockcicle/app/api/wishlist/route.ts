@@ -3,7 +3,7 @@ import { verify } from "jsonwebtoken";
 import WishlistModel from "@/db/models/WishlistModel";
 import errorHandler from "@/helpers/errorHandler";
 
-async function getWishlistByUserId() {
+async function getUserId() {
   const cookieStore = await cookies();
   const token = cookieStore.get("Authorization")?.value?.split(" ")[1];
   if (!token) throw { status: 401, message: "Unauthorized" };
@@ -13,7 +13,7 @@ async function getWishlistByUserId() {
 
 export async function GET() {
   try {
-    const userId = await getWishlistByUserId();
+    const userId = await getUserId();
     const wishlist = await WishlistModel.getWishlistByUserId(userId);
     return Response.json(wishlist);
   } catch (error) {
@@ -23,7 +23,7 @@ export async function GET() {
 
 export async function POST(request: Request) {
   try {
-    const userId = await getWishlistByUserId();
+    const userId = await getUserId();
     const { productId } = await request.json();
     const result = await WishlistModel.add(userId, productId);
     return Response.json(result, { status: 201 });
