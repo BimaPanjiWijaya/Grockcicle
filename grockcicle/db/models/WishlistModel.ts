@@ -6,7 +6,19 @@ class WishlistModel {
     return database.collection("wishlists");
   }
   static async getWishlistByUserId(userId: string) {
-    return await this.collection().find({ userId }).toArray();
+    return await this.collection()
+      .aggregate([
+        { $match: { userId } },
+        {
+          $lookup: {
+            from: "products",
+            localField: "productId",
+            foreignField: "_id",
+          },
+        },
+        { $unwind: "$product" },
+      ])
+      .toArray();
   }
 
   static async add(userId: string, productId: string) {
