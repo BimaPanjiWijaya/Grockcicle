@@ -10,7 +10,7 @@ export default function WishlistPage() {
 
   useEffect(() => {
     const stored: Product[] = JSON.parse(
-      localStorage.getItem("wishlist") ?? "[]"
+      localStorage.getItem("wishlist") ?? "[]",
     );
     setWishlist(stored);
     setMounted(true);

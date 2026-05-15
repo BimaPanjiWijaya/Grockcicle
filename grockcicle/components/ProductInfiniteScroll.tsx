@@ -39,7 +39,7 @@ export default function ProductInfiniteScroll({
     params.set("limit", String(LIMIT));
 
     setLoading(true);
-    fetch(`/api/product?${params.toString()}`)
+    fetch(`http://localhost:3000/api/product?${params.toString()}`)
       .then((res) => res.json())
       .then(({ items, meta }) => {
         setProducts((prev) => (page === 1 ? items : [...prev, ...items]));

@@ -13,14 +13,14 @@ export default function ProductAddWishlist({ product, className = "" }: Props) {
 
   useEffect(() => {
     const stored: Product[] = JSON.parse(
-      localStorage.getItem("wishlist") ?? "[]"
+      localStorage.getItem("wishlist") ?? "[]",
     );
     setIsWishlisted(stored.some((p) => p.id === product.id));
   }, [product.id]);
 
   function toggleWishlist() {
     const stored: Product[] = JSON.parse(
-      localStorage.getItem("wishlist") ?? "[]"
+      localStorage.getItem("wishlist") ?? "[]",
     );
 
     let updated: Product[];
