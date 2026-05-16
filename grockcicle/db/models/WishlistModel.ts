@@ -14,6 +14,7 @@ class WishlistModel {
             from: "products",
             localField: "productId",
             foreignField: "_id",
+            as: "product",
           },
         },
         { $unwind: "$product" },

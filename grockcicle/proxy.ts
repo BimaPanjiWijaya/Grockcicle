@@ -14,7 +14,7 @@ export async function proxy(request: NextRequest) {
         throw { message: "Please login first", status: 401 };
       }
 
-      const secretKey = process.env.SERCRET_KEY || " default_secret_key";
+      const secretKey = process.env.SERCRET_KEY!;
       const decoded = verify(accessToken, secretKey) as { userId: string };
       const userId = decoded.userId;
 
@@ -32,7 +32,7 @@ export async function proxy(request: NextRequest) {
       return errorHandler(error);
     }
   }
-  if (request.nextUrl.pathname.startsWith("/wishlists")) {
+  if (request.nextUrl.pathname.startsWith("/wishlist")) {
     if (!token) {
       return NextResponse.redirect(new URL("/login", request.url));
     }

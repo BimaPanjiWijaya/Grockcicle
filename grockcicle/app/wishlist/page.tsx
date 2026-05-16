@@ -1,28 +1,46 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 import { Product } from "@/types";
 import WishlistList from "@/components/WishlistList";
 
+type WishlistItem = {
+  _id: string;
+  product: Product;
+};
+
 export default function WishlistPage() {
-  const [wishlist, setWishlist] = useState<Product[]>([]);
-  const [mounted, setMounted] = useState(false);
+  const [items, setItems] = useState<WishlistItem[]>([]);
+  const [loading, setLoading] = useState(true);
+  const router = useRouter();
 
   useEffect(() => {
-    const stored: Product[] = JSON.parse(
-      localStorage.getItem("wishlist") ?? "[]",
-    );
-    setWishlist(stored);
-    setMounted(true);
+    fetch("http://localhost:3000/api/wishlist")
+      .then((res) => {
+        if (res.status === 401) {
+          router.push("/login");
+          return null;
+        }
+        return res.json();
+      })
+      .then((data) => {
+        if (data) setItems(data);
+      })
+      .finally(() => setLoading(false));
   }, []);
 
-  function removeFromWishlist(id: number) {
-    const updated = wishlist.filter((p) => p.id !== id);
-    setWishlist(updated);
-    localStorage.setItem("wishlist", JSON.stringify(updated));
+  async function removeFromWishlist(id: number) {
+    const item = items.find((i) => i.product.id === id);
+    if (!item) return;
+
+    await fetch(`/api/wishlist?id=${item._id}`, { method: "DELETE" });
+    setItems((prev) => prev.filter((i) => i._id !== item._id));
   }
 
-  if (!mounted) return null;
+  if (loading) return null;
+
+  const wishlist = items.map((i) => i.product);
 
   return (
     <main className="flex-1">
@@ -35,7 +53,6 @@ export default function WishlistPage() {
             {wishlist.length} {wishlist.length === 1 ? "item" : "items"} saved
           </p>
         </div>
-
         <WishlistList wishlist={wishlist} onRemove={removeFromWishlist} />
       </div>
     </main>
