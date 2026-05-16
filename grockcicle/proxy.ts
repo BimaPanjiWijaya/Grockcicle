@@ -38,7 +38,6 @@ export async function proxy(request: NextRequest) {
     }
     return NextResponse.next();
   }
-
   const guestOnlyPaths = ["/login", "/register"];
   if (guestOnlyPaths.includes(request.nextUrl.pathname)) {
     if (token) {

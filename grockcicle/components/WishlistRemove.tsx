@@ -4,14 +4,14 @@ import { Product } from "@/types";
 
 type Props = {
   product: Product;
-  onRemove: (id: number) => void;
+  onRemove: (_id: string) => void;
   className?: string;
 };
 
 export default function WishlistRemove({ product, onRemove, className = "" }: Props) {
   return (
     <button
-      onClick={() => onRemove(product.id)}
+      onClick={() => onRemove(product._id)}
       aria-label={`Remove ${product.name} from wishlist`}
       className={`group flex items-center gap-2 transition-colors ${className}`}
     >

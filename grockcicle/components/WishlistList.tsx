@@ -7,7 +7,7 @@ import WishlistRemove from "@/components/WishlistRemove";
 
 type Props = {
   wishlist: Product[];
-  onRemove: (id: number) => void;
+  onRemove: (_id: string) => void;
 };
 
 export default function WishlistList({ wishlist, onRemove }: Props) {
@@ -42,7 +42,7 @@ export default function WishlistList({ wishlist, onRemove }: Props) {
   return (
     <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">
       {wishlist.map((product) => (
-        <div key={product.id} className="group flex flex-col">
+        <div key={product._id} className="group flex flex-col">
           <Link href={`/product/${product.slug}`} className="block">
             <div className="relative aspect-square w-full overflow-hidden rounded-lg bg-[#f5f2ee]">
               <Image

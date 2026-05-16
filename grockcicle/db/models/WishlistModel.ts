@@ -51,13 +51,21 @@ class WishlistModel {
     return await this.collection().insertOne(data);
   }
 
-  static async remove(wishlistId: string, userId: string) {
-    const result = await this.collection().deleteOne({
-      _id: new ObjectId(wishlistId),
+  static async remove(userId: string, productId: string) {
+    const parsed = z.object({
+      userId: z.instanceof(ObjectId, { message: "userId is required" }),
+      productId: z.instanceof(ObjectId, { message: "productId is required" }),
+    }).parse({
       userId: new ObjectId(userId),
+      productId: new ObjectId(productId),
+    });
+
+    const result = await this.collection().deleteOne({
+      userId: parsed.userId,
+      productId: parsed.productId,
     });
     if (result.deletedCount === 0) {
-      throw { status: 404, message: "Whishlist item  not found" };
+      throw { status: 404, message: "Wishlist item not found" };
     }
     return result;
   }

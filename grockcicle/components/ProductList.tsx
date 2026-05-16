@@ -48,7 +48,7 @@ export default function ProductList({ category = "", q = "" }: Props) {
       <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">
         {products.map((product) => (
           <Link
-            key={product.id}
+            key={product._id}
             href={`/product/${product.slug}`}
             className="group flex flex-col"
           >

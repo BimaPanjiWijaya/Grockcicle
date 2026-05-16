@@ -11,7 +11,6 @@ type Props = {
 
 export default function ProductAddWishlist({ product, className = "" }: Props) {
   const [isWishlisted, setIsWishlisted] = useState(false);
-  const [wishlistId, setWishlistId] = useState<string | null>(null);
   const router = useRouter();
 
   useEffect(() => {
@@ -28,7 +27,6 @@ export default function ProductAddWishlist({ product, className = "" }: Props) {
 
         if (found) {
           setIsWishlisted(true);
-          setWishlistId(found._id);
         }
       });
   }, [product._id]);
@@ -36,10 +34,9 @@ export default function ProductAddWishlist({ product, className = "" }: Props) {
   async function toggleWishlist(e: React.MouseEvent) {
     e.preventDefault();
     e.stopPropagation();
-    if (isWishlisted && wishlistId) {
-      await fetch(`/api/wishlist?id=${wishlistId}`, { method: "DELETE" });
+    if (isWishlisted) {
+      await fetch(`/api/wishlist?productId=${product._id}`, { method: "DELETE" });
       setIsWishlisted(false);
-      setWishlistId(null);
     } else {
       const res = await fetch("/api/wishlist", {
         method: "POST",
@@ -50,9 +47,7 @@ export default function ProductAddWishlist({ product, className = "" }: Props) {
         router.push("/login");
         return;
       }
-      const data = await res.json();
       setIsWishlisted(true);
-      setWishlistId(data.insertedId);
     }
   }
 

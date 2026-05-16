@@ -30,14 +30,9 @@ export default function WishlistPage() {
       .finally(() => setLoading(false));
   }, []);
 
-  async function removeFromWishlist(id: number) {
-    const item = items.find((i) => i.product.id === id);
-    if (!item) return;
-
-    await fetch(`/api/wishlist?id=${item._id}`, {
-      method: "DELETE",
-    });
-    setItems((prev) => prev.filter((i) => i._id !== item._id));
+  async function removeFromWishlist(productId: string) {
+    await fetch(`/api/wishlist?productId=${productId}`, { method: "DELETE" });
+    setItems((prev) => prev.filter((i) => i.product._id !== productId));
   }
 
   if (loading) return null;

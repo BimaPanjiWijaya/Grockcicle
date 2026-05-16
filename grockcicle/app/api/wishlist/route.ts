@@ -32,10 +32,10 @@ export async function DELETE(request: Request) {
     if (!userId) throw { status: 401, message: "Unauthorized" };
 
     const { searchParams } = new URL(request.url);
-    const id = searchParams.get("id");
-    if (!id) throw { status: 400, message: "Missing wishlist id" };
+    const productId = searchParams.get("productId");
+    if (!productId) throw { status: 400, message: "Missing productId" };
 
-    await WishlistModel.remove(id, userId);
+    await WishlistModel.remove(userId, productId);
     return Response.json({ message: "Product removed from wishlist" });
   } catch (err) {
     return errorHandler(err);
