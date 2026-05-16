@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, SubmitEvent } from "react";
+import { useState } from "react";
+import { toast } from "react-toastify";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -12,7 +13,7 @@ export default function LoginPage() {
     setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   }
 
-  const handleSubmit = async (e: SubmitEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     try {
@@ -28,7 +29,7 @@ export default function LoginPage() {
       alert("Login successful!");
       window.location.href = "/";
     } catch (err: any) {
-      alert(err.message || "An error occurred during login.");
+      toast.error(err.message || "An error occurred during login.");
     }
   };
 

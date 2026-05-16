@@ -22,13 +22,16 @@ export default function ProductAddWishlist({ product, className = "" }: Props) {
       })
       .then((data) => {
         if (!data) return;
-        const found = data.find((item: any) => item.product.id === product.id);
+        const found = data.find(
+          (item: any) => item.product._id === product._id,
+        );
+
         if (found) {
           setIsWishlisted(true);
           setWishlistId(found._id);
         }
       });
-  }, [product.id]);
+  }, [product._id]);
 
   async function toggleWishlist() {
     if (isWishlisted && wishlistId) {
@@ -39,7 +42,7 @@ export default function ProductAddWishlist({ product, className = "" }: Props) {
       const res = await fetch("/api/wishlist", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ productId: product.id }),
+        body: JSON.stringify({ productId: product._id }),
       });
       if (res.status === 401) {
         router.push("/login");

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { toast } from "react-toastify";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -35,9 +36,9 @@ export default function RegisterPage() {
       if (!res.ok) {
         throw response;
       }
-      alert("Account created successfully!");
+      window.location.href = "/login";
     } catch (err: any) {
-      alert(err.message || "An error occurred during registration.");
+      toast.error(err.message || "An error occurred during registration.");
     }
   };
 
