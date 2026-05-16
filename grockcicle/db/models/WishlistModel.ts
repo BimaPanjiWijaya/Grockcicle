@@ -8,7 +8,7 @@ class WishlistModel {
   static async getWishlistByUserId(userId: string) {
     return await this.collection()
       .aggregate([
-        { $match: { userId } },
+        { $match: { userId: new ObjectId(userId) } },
         {
           $lookup: {
             from: "products",
@@ -23,14 +23,18 @@ class WishlistModel {
   }
 
   static async add(userId: string, productId: string) {
-    const existing = await this.collection().findOne({ userId, productId });
+    const existing = await this.collection().findOne({
+      userId: new ObjectId(userId),
+      productId: new ObjectId(productId),
+    });
     if (existing) {
       throw { status: 400, message: "Product already in wishlist" };
     }
     const result = await this.collection().insertOne({
-      userId,
-      productId,
+      userId: new ObjectId(userId),
+      productId: new ObjectId(productId),
       createdAt: new Date(),
+      updatedAt: new Date(),
     });
     return result;
   }
@@ -38,7 +42,7 @@ class WishlistModel {
   static async remove(wishlistId: string, userId: string) {
     const result = await this.collection().deleteOne({
       _id: new ObjectId(wishlistId),
-      userId,
+      userId: new ObjectId(userId),
     });
     if (result.deletedCount === 0) {
       throw { status: 404, message: "Whishlist item  not found" };
