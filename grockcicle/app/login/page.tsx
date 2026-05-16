@@ -16,8 +16,17 @@ export default function LoginPage() {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    if (!form.email || !form.password) {
-      toast.error("Email and password are required.");
+    if (!form.email) {
+      toast.error("Email is required.");
+      return;
+    }
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(form.email)) {
+      toast.error("Invalid email format.");
+      return;
+    }
+    if (!form.password) {
+      toast.error("Password is required.");
       return;
     }
 

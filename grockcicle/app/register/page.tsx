@@ -21,8 +21,29 @@ export default function RegisterPage() {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    if (!form.name || !form.username || !form.email || !form.password) {
-      toast.error("All fields are required.");
+    if (!form.name) {
+      toast.error("Name is required.");
+      return;
+    }
+    if (!form.username) {
+      toast.error("Username is required.");
+      return;
+    }
+    if (!form.email) {
+      toast.error("Email is required.");
+      return;
+    }
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(form.email)) {
+      toast.error("Invalid email format.");
+      return;
+    }
+    if (!form.password) {
+      toast.error("Password is required.");
+      return;
+    }
+    if (form.password.length < 5) {
+      toast.error("Password must be at least 5 characters.");
       return;
     }
 
