@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Background -->
+  <rect width="32" height="32" rx="8" fill="#111827"/>
+  <!-- Tumbler/bottle silhouette -->
+  <path d="M12 6h8v1.5c1 0.5 1.5 1.5 1.5 2.5v13c0 1.5-1 2.5-2.5 2.5h-6C11.5 25.5 10.5 24.5 10.5 23V10c0-1 0.5-2 1.5-2.5V6z" fill="white"/>
+  <!-- Lid detail -->
+  <rect x="13" y="4" width="6" height="2.5" rx="1" fill="white"/>
+  <!-- Straw hole -->
+  <rect x="15" y="3" width="2" height="2" rx="1" fill="#111827"/>
+  <!-- Shine/highlight on bottle -->
+  <rect x="12.5" y="10" width="1.5" height="10" rx="0.75" fill="#111827" opacity="0.15"/>
+</svg>
