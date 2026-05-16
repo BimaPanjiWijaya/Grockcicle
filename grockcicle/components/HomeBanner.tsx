@@ -7,7 +7,7 @@ const slides = [
       "https://corkcicle.com/cdn/shop/files/2241GCM-1.png?v=1773346877&width=1920",
     eyebrow: "New Arrivals",
     headline: "Built for the\nAdventure Ahead",
-    cta: { label: "Shop New Arrivals", href: "/product?category=new-arrivals" },
+    cta: { label: "Shop New Arrivals", href: "/products?category=new-arrivals" },
     align: "left" as const,
     bg: "#e8e4dc",
   },
@@ -16,7 +16,7 @@ const slides = [
       "https://corkcicle.com/cdn/shop/files/92S-W25-L-01.png?v=1771358052&width=1920",
     eyebrow: "Bags & Coolers",
     headline: "Carry Your\nDrinks in Style",
-    cta: { label: "Shop Bags", href: "/product?category=bags" },
+    cta: { label: "Shop Bags", href: "/products?category=bags" },
     align: "right" as const,
     bg: "#d6cfc4",
   },
@@ -25,7 +25,7 @@ const slides = [
       "https://corkcicle.com/cdn/shop/files/2516GCM-2.png?v=1776450061&width=1920",
     eyebrow: "Best Sellers",
     headline: "Your Everyday\nFavorites",
-    cta: { label: "Shop Best Sellers", href: "/product?category=best-sellers" },
+    cta: { label: "Shop Best Sellers", href: "/products?category=best-sellers" },
     align: "left" as const,
     bg: "#ede8e0",
   },
@@ -101,7 +101,7 @@ export default function HomeBanner() {
             Find Your Grockcicle
           </h2>
           <Link
-            href="/product"
+            href="/products"
             className="text-xs font-semibold uppercase tracking-widest text-gray-500 hover:text-gray-900 transition-colors"
           >
             Shop All
@@ -112,28 +112,28 @@ export default function HomeBanner() {
           {[
             {
               label: "Drinkware",
-              href: "/product?category=drinkware",
+              href: "/products?category=drinkware",
               image:
                 "https://corkcicle.com/cdn/shop/files/2116PME-1.png?v=1772722773&width=448",
               bg: "#f0ece4",
             },
             {
               label: "Bags",
-              href: "/product?category=bags",
+              href: "/products?category=bags",
               image:
                 "https://corkcicle.com/cdn/shop/files/92S-W25-L-01.png?v=1771358052&width=448",
               bg: "#e8e2d8",
             },
             {
               label: "Barware & Coffee",
-              href: "/product?category=barware",
+              href: "/products?category=barware",
               image:
                 "https://corkcicle.com/cdn/shop/files/2817PME-01.png?v=1768337577&width=448",
               bg: "#ede7dd",
             },
             {
               label: "Collabs",
-              href: "/product?category=collabs",
+              href: "/products?category=collabs",
               image:
                 "https://corkcicle.com/cdn/shop/files/RP2222MCPH_hero_7acf7745-eb71-4e37-84f5-078fb2ae496a.png?v=1775577498&width=448",
               bg: "#e4ddd4",

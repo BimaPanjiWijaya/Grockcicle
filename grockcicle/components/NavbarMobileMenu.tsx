@@ -4,12 +4,12 @@ import { useState } from "react";
 import Link from "next/link";
 
 const navLinks = [
-  { label: "Drinkware", href: "/product?category=drinkware" },
-  { label: "Bags", href: "/product?category=bags" },
-  { label: "Barware & Coffee", href: "/product?category=barware" },
-  { label: "Collabs", href: "/product?category=collabs" },
-  { label: "New Arrivals", href: "/product?category=new-arrivals" },
-  { label: "Best Sellers", href: "/product?category=best-sellers" },
+  { label: "Drinkware", href: "/products?category=drinkware" },
+  { label: "Bags", href: "/products?category=bags" },
+  { label: "Barware & Coffee", href: "/products?category=barware" },
+  { label: "Collabs", href: "/products?category=collabs" },
+  { label: "New Arrivals", href: "/products?category=new-arrivals" },
+  { label: "Best Sellers", href: "/products?category=best-sellers" },
 ];
 
 export default function NavbarMobileMenu() {

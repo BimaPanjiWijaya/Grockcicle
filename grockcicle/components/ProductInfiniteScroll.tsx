@@ -88,7 +88,7 @@ export default function ProductInfiniteScroll({
           {products.map((product) => (
             <Link
               key={product._id}
-              href={`/product/${product.slug}`}
+              href={`/products/${product.slug}`}
               className="group flex flex-col"
             >
               <div className="relative aspect-square w-full overflow-hidden rounded-lg bg-[#f5f2ee]">

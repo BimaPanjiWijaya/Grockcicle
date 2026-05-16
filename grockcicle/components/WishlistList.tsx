@@ -30,7 +30,7 @@ export default function WishlistList({ wishlist, onRemove }: Props) {
         </svg>
         <p className="text-sm text-gray-400">Your wishlist is empty.</p>
         <Link
-          href="/product"
+          href="/products"
           className="mt-2 rounded-lg bg-gray-900 px-6 py-3 text-xs font-semibold uppercase tracking-widest text-white hover:bg-gray-700 transition-colors"
         >
           Browse Products
@@ -43,7 +43,7 @@ export default function WishlistList({ wishlist, onRemove }: Props) {
     <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">
       {wishlist.map((product) => (
         <div key={product._id} className="group flex flex-col">
-          <Link href={`/product/${product.slug}`} className="block">
+          <Link href={`/products/${product.slug}`} className="block">
             <div className="relative aspect-square w-full overflow-hidden rounded-lg bg-[#f5f2ee]">
               <Image
                 src={product.thumbnail}
@@ -55,7 +55,7 @@ export default function WishlistList({ wishlist, onRemove }: Props) {
             </div>
           </Link>
           <div className="mt-3 flex flex-col gap-1 px-1">
-            <Link href={`/product/${product.slug}`}>
+            <Link href={`/products/${product.slug}`}>
               <p className="line-clamp-2 text-xs font-semibold uppercase tracking-widest text-gray-900 underline-offset-2 hover:underline">
                 {product.name}
               </p>

@@ -18,7 +18,7 @@ export default function ProductSearch() {
       } else {
         params.delete("q");
       }
-      router.push(`/product?${params.toString()}`);
+      router.push(`/products?${params.toString()}`);
     }, 400);
 
     return () => {
@@ -30,7 +30,7 @@ export default function ProductSearch() {
     setQuery("");
     const params = new URLSearchParams(searchParams.toString());
     params.delete("q");
-    router.push(`/product?${params.toString()}`);
+    router.push(`/products?${params.toString()}`);
   }
 
   return (

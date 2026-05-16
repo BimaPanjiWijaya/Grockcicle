@@ -21,7 +21,7 @@ export default async function HomeProductFeatured() {
           </h2>
         </div>
         <Link
-          href="/product"
+          href="/products"
           className="text-xs font-semibold uppercase tracking-widest text-gray-500 underline-offset-4 hover:text-gray-900 hover:underline transition-colors"
         >
           See All
@@ -31,8 +31,8 @@ export default async function HomeProductFeatured() {
       <div className="flex gap-4 overflow-x-auto pb-4 scrollbar-hide">
         {products.map((product) => (
           <Link
-            key={product._id}
-            href={`/product/${product.slug}`}
+            key={product._id.toString()}
+            href={`/products/${product.slug}`}
             className="group flex flex-col shrink-0 w-52 md:w-60"
           >
             <div className="relative aspect-square w-full overflow-hidden rounded-lg bg-[#f5f2ee]">

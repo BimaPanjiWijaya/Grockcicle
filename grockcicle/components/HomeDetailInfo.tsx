@@ -102,7 +102,7 @@ export default function HomeDetailInfo() {
                     Rp {product.price.toLocaleString("id-ID")}
                   </span>
                   <Link
-                    href={`/product/${product.slug}`}
+                    href={`/products/${product.slug}`}
                     className="group inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-widest text-gray-900 underline-offset-4 hover:underline"
                   >
                     Shop Now
