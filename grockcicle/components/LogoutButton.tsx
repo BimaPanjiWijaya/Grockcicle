@@ -1,21 +1,17 @@
 "use client";
 
-import { useRouter } from "next/navigation";
 import { handleLogout } from "@/actions";
 
 export default function LogoutButton({ isLoggedIn }: { isLoggedIn: boolean }) {
-  const router = useRouter();
-
-  async function handleLogout() {
+  async function onLogout() {
     await handleLogout();
-    router.push("/login");
-    router.refresh();
+    window.location.href = "/login";
   }
 
   if (isLoggedIn) {
     return (
       <button
-        onClick={handleLogout}
+        onClick={onLogout}
         className="text-sm font-semibold text-gray-300 hover:text-white transition-colors"
       >
         Logout

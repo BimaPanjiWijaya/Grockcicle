@@ -26,6 +26,7 @@ export default function LoginPage() {
         throw response;
       }
       alert("Login successful!");
+      window.location.href = "/";
     } catch (err: any) {
       alert(err.message || "An error occurred during login.");
     }
