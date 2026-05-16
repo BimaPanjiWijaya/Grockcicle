@@ -38,8 +38,24 @@ export async function proxy(request: NextRequest) {
     }
     return NextResponse.next();
   }
+
+  const guestOnlyPaths = ["/login", "/register"];
+  if (guestOnlyPaths.includes(request.nextUrl.pathname)) {
+    if (token) {
+      try {
+        const [bearer, accessToken] = token.split(" ");
+        if (bearer === "Bearer" && accessToken) {
+          verify(accessToken, process.env.SECRET_KEY!);
+          return NextResponse.redirect(new URL("/", request.url));
+        }
+      } catch {
+        return NextResponse.next();
+      }
+    }
+    return NextResponse.next();
+  }
 }
 
 export const config = {
-  matcher: ["/api/wishlist/:path*", "/wishlist/:path*"],
+  matcher: ["/api/wishlist/:path*", "/wishlist/:path*", "/login", "/register"],
 };
