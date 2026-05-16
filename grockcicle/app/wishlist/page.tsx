@@ -42,7 +42,7 @@ export default function WishlistPage() {
   const wishlist = items.map((i) => i.product);
 
   return (
-    <main className="flex-1">
+    <main className="flex-1 min-h-[calc(100vh-64px)]">
       <div className="mx-auto max-w-7xl px-4 md:px-8 py-10">
         <div className="mb-8">
           <h1 className="text-2xl font-bold tracking-tight text-gray-900">

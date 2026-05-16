@@ -121,7 +121,7 @@ export default function RegisterPage() {
             </Link>
           </p>
 
-          <form onSubmit={handleSubmit} className="mt-8 flex flex-col gap-5">
+          <form onSubmit={handleSubmit} noValidate className="mt-8 flex flex-col gap-5">
             <div className="flex flex-col gap-1.5">
               <label
                 htmlFor="name"
@@ -133,7 +133,6 @@ export default function RegisterPage() {
                 id="name"
                 name="name"
                 type="text"
-                required
                 value={form.name}
                 onChange={handleChange}
                 placeholder="John Doe"
@@ -170,8 +169,7 @@ export default function RegisterPage() {
               <input
                 id="email"
                 name="email"
-                type="email"
-                required
+                type="text"
                 value={form.email}
                 onChange={handleChange}
                 placeholder="you@example.com"
@@ -191,7 +189,6 @@ export default function RegisterPage() {
                   id="password"
                   name="password"
                   type={showPassword ? "text" : "password"}
-                  required
                   value={form.password}
                   onChange={handleChange}
                   placeholder="Min. 6 characters"
