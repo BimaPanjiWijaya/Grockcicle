@@ -16,6 +16,11 @@ export default function LoginPage() {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
+    if (!form.email || !form.password) {
+      toast.error("Email and password are required.");
+      return;
+    }
+
     try {
       const res = await fetch("/api/login", {
         method: "POST",
@@ -26,7 +31,6 @@ export default function LoginPage() {
       if (!res.ok) {
         throw response;
       }
-      alert("Login successful!");
       window.location.href = "/";
     } catch (err: any) {
       toast.error(err.message || "An error occurred during login.");

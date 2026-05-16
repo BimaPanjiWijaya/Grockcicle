@@ -33,7 +33,9 @@ export default function ProductAddWishlist({ product, className = "" }: Props) {
       });
   }, [product._id]);
 
-  async function toggleWishlist() {
+  async function toggleWishlist(e: React.MouseEvent) {
+    e.preventDefault();
+    e.stopPropagation();
     if (isWishlisted && wishlistId) {
       await fetch(`/api/wishlist?id=${wishlistId}`, { method: "DELETE" });
       setIsWishlisted(false);
@@ -56,7 +58,7 @@ export default function ProductAddWishlist({ product, className = "" }: Props) {
 
   return (
     <button
-      onClick={toggleWishlist}
+      onClick={(e) => toggleWishlist(e)}
       aria-label={isWishlisted ? "Remove from wishlist" : "Add to wishlist"}
       className={`group flex items-center gap-2 transition-colors ${className}`}
     >
