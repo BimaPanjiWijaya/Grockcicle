@@ -4,7 +4,8 @@ import { Metadata } from "next";
 import ProductAddWishlist from "@/components/ProductAddwishlist";
 
 async function getProduct(slug: string): Promise<Product | null> {
-  const res = await fetch(`http://localhost:3000/api/product/${slug}`, {
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
+  const res = await fetch(`${baseUrl}/api/product/${slug}`, {
     cache: "no-store",
   });
   if (!res.ok) return null;

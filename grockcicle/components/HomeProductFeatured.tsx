@@ -1,9 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
-import ProductModel from "@/db/models/ProductModel";
+import { Product } from "@/types";
 
-async function getFeaturedProducts() {
-  const { items } = await ProductModel.ProductPagination({}, 1, 8);
+async function getFeaturedProducts(): Promise<Product[]> {
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
+  const res = await fetch(`${baseUrl}/api/product?limit=8`, {
+    cache: "no-store",
+  });
+  if (!res.ok) return [];
+  const { items } = await res.json();
   return items;
 }
 
@@ -31,7 +36,7 @@ export default async function HomeProductFeatured() {
       <div className="flex gap-4 overflow-x-auto pb-4 scrollbar-hide">
         {products.map((product) => (
           <Link
-            key={product._id.toString()}
+            key={product._id}
             href={`/products/${product.slug}`}
             className="group flex flex-col shrink-0 w-52 md:w-60"
           >
