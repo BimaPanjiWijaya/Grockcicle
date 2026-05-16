@@ -1,5 +1,9 @@
 import Link from "next/link";
 import NavbarMobileMenu from "@/components/NavbarMobileMenu";
+import { cookies } from "next/headers";
+import { verify } from "jsonwebtoken";
+import UserModel from "@/db/models/UserModel";
+import LogoutButton from "@/components/LogoutButton";
 
 const navLinks = [
   { label: "Drinkware", href: "/product?category=drinkware" },
@@ -10,7 +14,23 @@ const navLinks = [
   { label: "Best Sellers", href: "/product?category=best-sellers" },
 ];
 
-export default function Navbar() {
+async function getLoggedInUser() {
+  try {
+    const cookieStore = await cookies();
+    const token = cookieStore.get("Authorization")?.value?.split(" ")[1];
+    if (!token) return null;
+    const { userId } = verify(token, process.env.SECRET_KEY!) as {
+      userId: string;
+    };
+    return await UserModel.findById(userId);
+  } catch {
+    return null;
+  }
+}
+
+export default async function Navbar() {
+  const user = await getLoggedInUser();
+
   return (
     <header className="sticky top-0 z-50 w-full bg-gray-900">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 md:px-8">
@@ -34,6 +54,12 @@ export default function Navbar() {
         </nav>
 
         <div className="flex items-center gap-4">
+          {user && (
+            <span className="hidden md:block text-sm text-gray-300">
+              Hi, <span className="font-semibold text-white">{user.name}</span>
+            </span>
+          )}
+
           <Link
             href="/wishlist"
             aria-label="Wishlist"
@@ -55,26 +81,7 @@ export default function Navbar() {
             </svg>
           </Link>
 
-          <Link
-            href="/login"
-            aria-label="Account"
-            className="text-gray-300 hover:text-white transition-colors"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth={1.5}
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0zM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632z"
-              />
-            </svg>
-          </Link>
+          <LogoutButton isLoggedIn={!!user} />
 
           <NavbarMobileMenu />
         </div>

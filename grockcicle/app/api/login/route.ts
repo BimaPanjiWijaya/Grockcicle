@@ -35,3 +35,8 @@ export async function POST(request: Request) {
     return errorHandler(error);
   }
 }
+export async function DELETE() {
+  const cookieStore = await cookies();
+  cookieStore.delete("Authorization");
+  return Response.json({ message: "Logged out" });
+}

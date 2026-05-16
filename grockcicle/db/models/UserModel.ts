@@ -1,6 +1,7 @@
 import { database } from "../config/mongodb";
 import { z } from "zod";
 import { hashSync } from "bcryptjs";
+import { ObjectId } from "mongodb";
 
 interface NewUser {
   name: string;
@@ -34,6 +35,9 @@ class UserModel {
   }
   static async findByEmail(email: string) {
     return await this.collection().findOne({ email });
+  }
+  static async findById(id: string) {
+    return await this.collection().findOne({ _id: new ObjectId(id) });
   }
 }
 
