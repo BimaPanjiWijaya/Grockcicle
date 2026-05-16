@@ -1,22 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
+import ProductModel from "@/db/models/ProductModel";
 
-type Product = {
-  _id: string;
-  name: string;
-  slug: string;
-  excerpt: string;
-  price: number;
-  thumbnail: string;
-  tags: string[];
-};
-
-async function getFeaturedProducts(): Promise<Product[]> {
-  const res = await fetch("http://localhost:3000/api/product?limit=8", {
-    cache: "no-store",
-  });
-  if (!res.ok) return [];
-  const { items } = await res.json();
+async function getFeaturedProducts() {
+  const { items } = await ProductModel.ProductPagination({}, 1, 8);
   return items;
 }
 
