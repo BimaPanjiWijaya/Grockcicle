@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+import { toast } from "react-toastify";
 import { Product } from "@/types";
 import WishlistList from "@/components/WishlistList";
 
@@ -33,6 +34,7 @@ export default function WishlistPage() {
   async function removeFromWishlist(productId: string) {
     await fetch(`/api/wishlist?productId=${productId}`, { method: "DELETE" });
     setItems((prev) => prev.filter((i) => i.product._id !== productId));
+    toast.success("Removed from wishlist.");
   }
 
   if (loading) return null;

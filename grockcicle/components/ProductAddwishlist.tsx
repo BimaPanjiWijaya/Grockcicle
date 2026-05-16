@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+import { toast } from "react-toastify";
 import { Product } from "@/types";
 
 type Props = {
@@ -37,6 +38,7 @@ export default function ProductAddWishlist({ product, className = "" }: Props) {
     if (isWishlisted) {
       await fetch(`/api/wishlist?productId=${product._id}`, { method: "DELETE" });
       setIsWishlisted(false);
+      toast.success("Removed from wishlist.");
     } else {
       const res = await fetch("/api/wishlist", {
         method: "POST",
@@ -48,6 +50,7 @@ export default function ProductAddWishlist({ product, className = "" }: Props) {
         return;
       }
       setIsWishlisted(true);
+      toast.success("Added to wishlist.");
     }
   }
 

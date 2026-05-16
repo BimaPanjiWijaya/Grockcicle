@@ -54,12 +54,6 @@ export default async function Navbar() {
         </nav>
 
         <div className="flex items-center gap-4">
-          {user && (
-            <span className="hidden md:block text-sm text-gray-300">
-              Hi, <span className="font-semibold text-white">{user.name}</span>
-            </span>
-          )}
-
           <Link
             href="/wishlist"
             aria-label="Wishlist"
@@ -80,6 +74,12 @@ export default async function Navbar() {
               />
             </svg>
           </Link>
+
+          {user && (
+            <span className="hidden md:block text-sm text-gray-300">
+              Hi, <span className="font-semibold text-white">{user.name}</span>
+            </span>
+          )}
 
           <LogoutButton isLoggedIn={!!user} />
 
