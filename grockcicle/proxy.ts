@@ -14,7 +14,7 @@ export async function proxy(request: NextRequest) {
         throw { message: "Please login first", status: 401 };
       }
 
-      const secretKey = process.env.SERCRET_KEY!;
+      const secretKey = process.env.SECRET_KEY!;
       const decoded = verify(accessToken, secretKey) as { userId: string };
       const userId = decoded.userId;
 

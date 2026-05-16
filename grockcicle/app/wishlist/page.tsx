@@ -16,7 +16,7 @@ export default function WishlistPage() {
   const router = useRouter();
 
   useEffect(() => {
-    fetch("http://localhost:3000/api/wishlist")
+    fetch("/api/wishlist")
       .then((res) => {
         if (res.status === 401) {
           router.push("/login");
@@ -34,7 +34,9 @@ export default function WishlistPage() {
     const item = items.find((i) => i.product.id === id);
     if (!item) return;
 
-    await fetch(`/api/wishlist?id=${item._id}`, { method: "DELETE" });
+    await fetch(`/api/wishlist?id=${item._id}`, {
+      method: "DELETE",
+    });
     setItems((prev) => prev.filter((i) => i._id !== item._id));
   }
 

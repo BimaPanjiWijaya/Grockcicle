@@ -21,7 +21,7 @@ export default function RegisterPage() {
     e.preventDefault();
 
     try {
-      const res = await fetch("http://localhost:3000/api/register", {
+      const res = await fetch("/api/register", {
         method: "POST",
         body: JSON.stringify({
           email: form.email,

@@ -12,7 +12,7 @@ type Product = {
 };
 
 async function getFeaturedProducts(): Promise<Product[]> {
-  const res = await fetch("http://localhost:3000/api/product?limit=8", {
+  const res = await fetch("/api/product?limit=8", {
     cache: "no-store",
   });
   if (!res.ok) return [];

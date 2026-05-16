@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 import { Product } from "@/types";
 
 type Props = {
@@ -10,28 +11,44 @@ type Props = {
 
 export default function ProductAddWishlist({ product, className = "" }: Props) {
   const [isWishlisted, setIsWishlisted] = useState(false);
+  const [wishlistId, setWishlistId] = useState<string | null>(null);
+  const router = useRouter();
 
   useEffect(() => {
-    const stored: Product[] = JSON.parse(
-      localStorage.getItem("wishlist") ?? "[]",
-    );
-    setIsWishlisted(stored.some((p) => p.id === product.id));
+    fetch("/api/wishlist")
+      .then((res) => {
+        if (!res.ok) return null;
+        return res.json();
+      })
+      .then((data) => {
+        if (!data) return;
+        const found = data.find((item: any) => item.product.id === product.id);
+        if (found) {
+          setIsWishlisted(true);
+          setWishlistId(found._id);
+        }
+      });
   }, [product.id]);
 
-  function toggleWishlist() {
-    const stored: Product[] = JSON.parse(
-      localStorage.getItem("wishlist") ?? "[]",
-    );
-
-    let updated: Product[];
-    if (stored.some((p) => p.id === product.id)) {
-      updated = stored.filter((p) => p.id !== product.id);
+  async function toggleWishlist() {
+    if (isWishlisted && wishlistId) {
+      await fetch(`/api/wishlist?id=${wishlistId}`, { method: "DELETE" });
+      setIsWishlisted(false);
+      setWishlistId(null);
     } else {
-      updated = [...stored, product];
+      const res = await fetch("/api/wishlist", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ productId: product.id }),
+      });
+      if (res.status === 401) {
+        router.push("/login");
+        return;
+      }
+      const data = await res.json();
+      setIsWishlisted(true);
+      setWishlistId(data.insertedId);
     }
-
-    localStorage.setItem("wishlist", JSON.stringify(updated));
-    setIsWishlisted(!isWishlisted);
   }
 
   return (
