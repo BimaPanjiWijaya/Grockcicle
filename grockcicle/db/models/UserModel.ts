@@ -11,31 +11,43 @@ interface NewUser {
 }
 
 const UserSchema = z.object({
-  email: z.email("Invalid Email Address"),
-  password: z.string().min(6, "Password must be at least 6 characters Long"),
-  username: z.string().min(3, "Username must be at least 3 characters Long"),
-  name: z.string().min(1, "Name is reequired"),
+  name: z.string().min(1, "Name is required"),
+  username: z.string().min(1, "Username is required"),
+  email: z.email("Invalid email format").min(1, "Email is required"),
+  password: z.string().min(5, "Password must be at least 5 characters"),
 });
 
 class UserModel {
   static collection() {
     return database.collection("users");
   }
+
   static async create(newUser: NewUser) {
     UserSchema.parse(newUser);
-    const existingUser = await this.collection().findOne({
+
+    const existingEmail = await this.collection().findOne({
       email: newUser.email,
     });
-    if (existingUser) {
+    if (existingEmail) {
       throw { message: "Email already in use", status: 400 };
     }
+
+    const existingUsername = await this.collection().findOne({
+      username: newUser.username,
+    });
+    if (existingUsername) {
+      throw { message: "Username already in use", status: 400 };
+    }
+
     newUser.password = hashSync(newUser.password, 10);
     await this.collection().insertOne(newUser);
     return newUser;
   }
+
   static async findByEmail(email: string) {
     return await this.collection().findOne({ email });
   }
+
   static async findById(id: string) {
     return await this.collection().findOne({ _id: new ObjectId(id) });
   }
