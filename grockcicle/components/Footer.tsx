@@ -112,7 +112,6 @@ export default function Footer() {
 
   return (
     <footer className="bg-gray-900 text-gray-300">
-      {/* Newsletter */}
       <div className="border-b border-gray-700 py-8 px-4 md:px-8">
         <div className="mx-auto max-w-7xl flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm font-semibold tracking-widest uppercase text-white">
@@ -143,7 +142,6 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Main columns */}
       <div className="mx-auto max-w-7xl px-4 md:px-8 py-10 grid grid-cols-2 md:grid-cols-4 gap-8">
         {columns.map((col) => (
           <div key={col.title}>
@@ -166,10 +164,8 @@ export default function Footer() {
         ))}
       </div>
 
-      {/* Bottom bar */}
       <div className="border-t border-gray-700 px-4 md:px-8 py-5">
         <div className="mx-auto max-w-7xl flex flex-col md:flex-row items-center justify-between gap-4">
-          {/* Logo + copyright */}
           <div className="flex items-center gap-6">
             <Link
               href="/home"
@@ -182,7 +178,6 @@ export default function Footer() {
             </span>
           </div>
 
-          {/* Social icons */}
           <div className="flex items-center gap-4">
             {socials.map((s) => (
               <a
