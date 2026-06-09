@@ -15,7 +15,8 @@ export async function POST(request: Request) {
     const body = await request.json();
     LoginSchema.parse(body);
 
-    const { email, password } = body;
+    const { email: rawEmail, password } = body;
+    const email = String(rawEmail || "").trim();
     const user = await UserModel.findByEmail(email);
     if (!user) {
       throw { message: "Invalid email or password", status: 401 };
@@ -25,7 +26,7 @@ export async function POST(request: Request) {
       throw { message: "Invalid email or password", status: 401 };
     }
 
-    const token = sign({ userId: user._id }, process.env.SECRET_KEY!);
+    const token = sign({ userId: user._id }, process.env.SECRET_KEY || "");
 
     const cookieStore = await cookies();
     cookieStore.set("Authorization", `Bearer ${token}`);

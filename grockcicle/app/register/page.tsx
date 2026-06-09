@@ -29,12 +29,13 @@ export default function RegisterPage() {
       toast.error("Username is required.");
       return;
     }
-    if (!form.email) {
+    const email = form.email.trim();
+    if (!email) {
       toast.error("Email is required.");
       return;
     }
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(form.email)) {
+    if (!emailRegex.test(email)) {
       toast.error("Invalid email format.");
       return;
     }
@@ -51,7 +52,7 @@ export default function RegisterPage() {
       const res = await fetch("/api/register", {
         method: "POST",
         body: JSON.stringify({
-          email: form.email,
+          email,
           password: form.password,
           name: form.name,
           username: form.username,
@@ -121,7 +122,11 @@ export default function RegisterPage() {
             </Link>
           </p>
 
-          <form onSubmit={handleSubmit} noValidate className="mt-8 flex flex-col gap-5">
+          <form
+            onSubmit={handleSubmit}
+            noValidate
+            className="mt-8 flex flex-col gap-5"
+          >
             <div className="flex flex-col gap-1.5">
               <label
                 htmlFor="name"

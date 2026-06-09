@@ -2,7 +2,7 @@
 
 ## Tentang Project
 
-Grockcicle adalah web aplikasi eCommerce yang menyediakan katalog produk, pencarian, infinite scroll, detail produk, serta wishlist. Aplikasi ini dibangun dengan arsitektur Next.js App Router dan API routes terintegrasi dengan MongoDB untuk penyimpanan data pengguna, produk, dan wishlist.
+Grockcicle adalah web aplikasi E-Commerce yang menyediakan katalog produk, pencarian, infinite scroll, detail produk, serta wishlist. Aplikasi ini dibangun dengan arsitektur Next.js App Router dan API routes terintegrasi dengan MongoDB untuk penyimpanan data pengguna, produk, dan wishlist.
 
 ## Tech Stack
 

@@ -3,7 +3,9 @@ import { ZodError } from "zod";
 export default function errorHandler(err: unknown) {
   const error = err as { status: number; message: string };
 
-  let message = error.message || "An Unexpected error occurred";
+  console.error(err);
+
+  let message = error?.message || "An Unexpected error occurred";
 
   let status = error.status || 500;
 
@@ -14,10 +16,10 @@ export default function errorHandler(err: unknown) {
   }
   return Response.json(
     {
-      mesage: message,
+      message: message,
     },
     {
       status: status,
-    },
+    }
   );
 }

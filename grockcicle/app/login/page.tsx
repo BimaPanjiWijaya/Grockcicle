@@ -16,12 +16,13 @@ export default function LoginPage() {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    if (!form.email) {
+    const email = form.email.trim();
+    if (!email) {
       toast.error("Email is required.");
       return;
     }
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(form.email)) {
+    if (!emailRegex.test(email)) {
       toast.error("Invalid email format.");
       return;
     }
@@ -33,7 +34,7 @@ export default function LoginPage() {
     try {
       const res = await fetch("/api/login", {
         method: "POST",
-        body: JSON.stringify({ email: form.email, password: form.password }),
+        body: JSON.stringify({ email, password: form.password }),
         headers: { "Content-Type": "application/json" },
       });
       const response = await res.json();
@@ -99,7 +100,11 @@ export default function LoginPage() {
             </Link>
           </p>
 
-          <form onSubmit={handleSubmit} noValidate className="mt-8 flex flex-col gap-5">
+          <form
+            onSubmit={handleSubmit}
+            noValidate
+            className="mt-8 flex flex-col gap-5"
+          >
             <div className="flex flex-col gap-1.5">
               <label
                 htmlFor="email"
